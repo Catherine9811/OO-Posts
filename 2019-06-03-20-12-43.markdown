@@ -8,7 +8,7 @@ header-img: "img/post-bg-2015.jpg"
 tags:
 ---
 
-<div><label id="file">2019-06-03-20-12-43.markdown</label> > <button class="btn btn-default" id="delete"></button></div>
+<div><label id="file">2019-06-03-20-12-43.markdown</label> > <button class="btn btn-default" id="delete" onclick="del()"></button></div>
 
 **Time: 2019-06-02 20:12:43**
 
