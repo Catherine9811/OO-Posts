@@ -15,6 +15,7 @@ tags:
 
 ## I've Fixed This Error
 <div>Corresponding File: <label id="file">2019-06-03-20-12-43.markdown</label><br>Click Me To Resolve: <button class="btn" id="delete" onclick="del()"></button></div>
+> Important Note: When you click this button, this report will be deleted on next commit, please make sure no one else could be affected by this bug.
 
 ## Details
 
