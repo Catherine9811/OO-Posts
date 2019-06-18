@@ -1,0 +1,944 @@
+---
+layout:     post
+title:      "2 in MultiSeq on UMLCollaboration test Collaboration1"
+subtitle:   "Error Report"
+date:       2019-06-18 19:23:54
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - CONFLICT
+
+---
+
+**Time: 2019-06-18 19:23:54**
+
+> “Critical Errors Occurred!”
+
+## I've Fixed This Error
+<div>Corresponding File: <label id="file">2019-06-18-19-23-54.markdown</label><br>Click Me To Resolve: <button class="btn" id="delete" onclick="del()"></button></div>
+> Important Note: When you click this button, this report will be deleted on next commit, please make sure no one else could be affected by this bug.
+
+## Not My Fault, Diss Others!
+<div class="diss">
+    <section class="content">
+
+<li>
+    <button class="icobutton"><span class="fa fa-thumbs-o-down"> bxy</span><div class="count"><div class="number">Loading...</div></div></button>
+</li>
+
+<li>
+    <button class="icobutton"><span class="fa fa-thumbs-o-down"> mjl</span><div class="count"><div class="number">Loading...</div></div></button>
+</li>
+
+<li>
+    <button class="icobutton"><span class="fa fa-thumbs-o-down"> ws</span><div class="count"><div class="number">Loading...</div></div></button>
+</li>
+
+    </section>
+</div>
+
+## Details
+
+Error on line **232**
+
+```
+./gen_case/MultiSeq.mdj_UMLCollaboration_Collaboration1_2.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/MultiSeq.mdj)
+
+Error Info:
+
+```
+[!] FAILED On Line 232
+[!] ERROR: Line 232 {Failed, duplicated lifeline "Lifeline4" in umlinteraction "Interaction2".} -> ['ws', 'mjl']
+[!] ERROR: Line 232 {Ok, incoming message count of lifeline "Lifeline4" in umlinteraction "Interaction2" is 2.} -> ['bxy']
+```
+
+Test Case:
+
+```
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Interaction1","_type":"UMLInteraction","_id":"AAAAAAFraaT0E\/k0kxs="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message1","_type":"UMLMessage","_id":"AAAAAAFraaaquPmxuPY=","source":"AAAAAAFraaZ6\/\/lVr88=","target":"AAAAAAFraaZ+hfl0e78="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message16","_type":"UMLMessage","_id":"AAAAAAFracpVumB+dNM=","source":"AAAAAAFracoyxWBA7JQ=","target":"AAAAAAFraco1gmBf3dc="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message17","_type":"UMLMessage","_id":"AAAAAAFracpjqGCTmRA=","source":"AAAAAAFracoyxWBA7JQ=","target":"AAAAAAFracoyxWBA7JQ="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message18","_type":"UMLMessage","_id":"AAAAAAFracp8a2CpMGU=","source":"AAAAAAFraco1gmBf3dc=","target":"AAAAAAFraco1gmBf3dc="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message2","_type":"UMLMessage","_id":"AAAAAAFraabCZPnGYh8=","source":"AAAAAAFraaZ+hfl0e78=","target":"AAAAAAFraaaBWfmTtPQ="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message13","_type":"UMLMessage","_id":"AAAAAAFraae0H\/rG69c=","source":"AAAAAAFraaZ6\/\/lVr88=","target":"AAAAAAFraae0H\/rEcbw="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message3","_type":"UMLMessage","_id":"AAAAAAFraabM7\/nbeGY=","source":"AAAAAAFraaaBWfmTtPQ=","target":"AAAAAAFraaZ+hfl0e78="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message4","_type":"UMLMessage","_id":"AAAAAAFraabeo\/nwU20=","source":"AAAAAAFraaZ+hfl0e78=","target":"AAAAAAFraaaBWfmTtPQ="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message5","_type":"UMLMessage","_id":"AAAAAAFraabqPvoFPHk=","source":"AAAAAAFraaaBWfmTtPQ=","target":"AAAAAAFraaZ+hfl0e78="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message6","_type":"UMLMessage","_id":"AAAAAAFraab1bfoah1k=","source":"AAAAAAFraaZ+hfl0e78=","target":"AAAAAAFraaZ6\/\/lVr88="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message7","_type":"UMLMessage","_id":"AAAAAAFraacBCPovySI=","source":"AAAAAAFraaaBWfmTtPQ=","target":"AAAAAAFraaZ6\/\/lVr88="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message9","_type":"UMLMessage","_id":"AAAAAAFraadcy\/pi1dE=","source":"AAAAAAFraadcyvpgMpQ=","target":"AAAAAAFraaZ+hfl0e78="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message8","_type":"UMLMessage","_id":"AAAAAAFraadUNPpJBes=","source":"AAAAAAFraadUMvpHBo0=","target":"AAAAAAFraaaBWfmTtPQ="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message10","_type":"UMLMessage","_id":"AAAAAAFraadkUPp7q0c=","source":"AAAAAAFraadkUPp5cEA=","target":"AAAAAAFraaZ6\/\/lVr88="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message14","_type":"UMLMessage","_id":"AAAAAAFraaj+WPtQPLc=","source":"AAAAAAFraaZ+hfl0e78=","target":"AAAAAAFraaZ+hfl0e78="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message15","_type":"UMLMessage","_id":"AAAAAAFraakF9ftlwD4=","source":"AAAAAAFraaaBWfmTtPQ=","target":"AAAAAAFraaaBWfmTtPQ="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message11","_type":"UMLMessage","_id":"AAAAAAFraad1X\/qUhcE=","source":"AAAAAAFraaZ6\/\/lVr88=","target":"AAAAAAFraad1XvqSt8Y="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Message12","_type":"UMLMessage","_id":"AAAAAAFraajLGPs5jYQ=","source":"AAAAAAFraaZ6\/\/lVr88=","target":"AAAAAAFraaZ6\/\/lVr88="}
+{"_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Lifeline1","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFraaZ6\/\/lVr88=","represent":"AAAAAAFraaZ6\/\/lUfs0="}
+{"_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Lifeline2","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFraaZ+hfl0e78=","represent":"AAAAAAFraaZ+hflz7z4="}
+{"_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Lifeline3","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFraaaBWfmTtPQ=","represent":"AAAAAAFraaaBWfmSagE="}
+{"_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Endpoint1","_type":"UMLEndpoint","_id":"AAAAAAFraadUMvpHBo0="}
+{"_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Endpoint2","_type":"UMLEndpoint","_id":"AAAAAAFraadcyvpgMpQ="}
+{"_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Endpoint3","_type":"UMLEndpoint","_id":"AAAAAAFraadkUPp5cEA="}
+{"_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Endpoint4","_type":"UMLEndpoint","_id":"AAAAAAFraad1XvqSt8Y="}
+{"_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Endpoint6","_type":"UMLEndpoint","_id":"AAAAAAFraae0H\/rEcbw="}
+{"_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Endpoint5","_type":"UMLEndpoint","_id":"AAAAAAFraahlFvsR6Sk="}
+{"_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Lifeline4","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFracoyxWBA7JQ=","represent":"AAAAAAFracoyxWA\/jPs="}
+{"_parent":"AAAAAAFraaT0E\/k0kxs=","visibility":"public","name":"Lifeline4","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFraco1gmBf3dc=","represent":"AAAAAAFraco1gWBejFc="}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Interaction2","_type":"UMLInteraction","_id":"AAAAAAFraaXJxflHJak="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message1","_type":"UMLMessage","_id":"AAAAAAFraapzOvvdf0c=","source":"AAAAAAFraan9PfuBoIU=","target":"AAAAAAFraaoANvugT5k="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message2","_type":"UMLMessage","_id":"AAAAAAFraap9UPvy4b4=","source":"AAAAAAFraaoANvugT5k=","target":"AAAAAAFraan9PfuBoIU="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message17","_type":"UMLMessage","_id":"AAAAAAFracoG3WApqD0=","source":"AAAAAAFracmp0l+GFn0=","target":"AAAAAAFracmuDF+lhaM="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message3","_type":"UMLMessage","_id":"AAAAAAFraaqNS\/wHw9E=","source":"AAAAAAFraaoANvugT5k=","target":"AAAAAAFraaoDHfu\/Io0="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message18","_type":"UMLMessage","_id":"AAAAAAFracq6uWC+YbY=","source":"AAAAAAFracmp0l+GFn0=","target":"AAAAAAFracmp0l+GFn0="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message19","_type":"UMLMessage","_id":"AAAAAAFracrlpmDTXRQ=","source":"AAAAAAFracmuDF+lhaM=","target":"AAAAAAFracmuDF+lhaM="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message4","_type":"UMLMessage","_id":"AAAAAAFraaqUSPwcDhU=","source":"AAAAAAFraaoDHfu\/Io0=","target":"AAAAAAFraaoANvugT5k="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message5","_type":"UMLMessage","_id":"AAAAAAFraaqg2fwxe0g=","source":"AAAAAAFraan9PfuBoIU=","target":"AAAAAAFraaoDHfu\/Io0="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message6","_type":"UMLMessage","_id":"AAAAAAFraaqpivxGbds=","source":"AAAAAAFraaoDHfu\/Io0=","target":"AAAAAAFraan9PfuBoIU="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message7","_type":"UMLMessage","_id":"AAAAAAFraaq0XPxbiJU=","source":"AAAAAAFraaoDHfu\/Io0=","target":"AAAAAAFraan9PfuBoIU="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message12","_type":"UMLMessage","_id":"AAAAAAFraatNIPzRGCw=","source":"AAAAAAFraatNH\/zPZdI=","target":"AAAAAAFraaoDHfu\/Io0="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message13","_type":"UMLMessage","_id":"AAAAAAFraatT9vzqVic=","source":"AAAAAAFraatT9vzov9o=","target":"AAAAAAFraaoDHfu\/Io0="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message8","_type":"UMLMessage","_id":"AAAAAAFraarE7vxwOPQ=","source":"AAAAAAFraan9PfuBoIU=","target":"AAAAAAFraaoANvugT5k="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message14","_type":"UMLMessage","_id":"AAAAAAFraatbHP0D37U=","source":"AAAAAAFraatbHP0BcXI=","target":"AAAAAAFraaoDHfu\/Io0="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message9","_type":"UMLMessage","_id":"AAAAAAFraarT+fyFwsc=","source":"AAAAAAFraan9PfuBoIU=","target":"AAAAAAFraaoANvugT5k="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message11","_type":"UMLMessage","_id":"AAAAAAFraatGzPy4Yuc=","source":"AAAAAAFraatGzPy2n+Y=","target":"AAAAAAFraan9PfuBoIU="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message10","_type":"UMLMessage","_id":"AAAAAAFraas59PyfUOw=","source":"AAAAAAFraas58\/ydPJs=","target":"AAAAAAFraaoANvugT5k="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message16","_type":"UMLMessage","_id":"AAAAAAFraat1Dv01PNs=","source":"AAAAAAFraat1Df0zorU=","target":"AAAAAAFraan9PfuBoIU="}
+{"messageSort":"synchCall","_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Message15","_type":"UMLMessage","_id":"AAAAAAFraatnNf0cWiM=","source":"AAAAAAFraatnNf0amk0=","target":"AAAAAAFraaoANvugT5k="}
+{"_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Lifeline1","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFraan9PfuBoIU=","represent":"AAAAAAFraan9PfuAsxg="}
+{"_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Lifeline2","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFraaoANvugT5k=","represent":"AAAAAAFraaoANvuf3vQ="}
+{"_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Lifeline3","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFraaoDHfu\/Io0=","represent":"AAAAAAFraaoDHfu+2Bw="}
+{"_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Endpoint1","_type":"UMLEndpoint","_id":"AAAAAAFraas58\/ydPJs="}
+{"_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Endpoint2","_type":"UMLEndpoint","_id":"AAAAAAFraatGzPy2n+Y="}
+{"_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Endpoint3","_type":"UMLEndpoint","_id":"AAAAAAFraatNH\/zPZdI="}
+{"_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Endpoint4","_type":"UMLEndpoint","_id":"AAAAAAFraatT9vzov9o="}
+{"_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Endpoint5","_type":"UMLEndpoint","_id":"AAAAAAFraatbHP0BcXI="}
+{"_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Endpoint6","_type":"UMLEndpoint","_id":"AAAAAAFraatnNf0amk0="}
+{"_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Endpoint7","_type":"UMLEndpoint","_id":"AAAAAAFraat1Df0zorU="}
+{"_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Lifeline4","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFracmp0l+GFn0=","represent":"AAAAAAFracmp0l+FF2g="}
+{"_parent":"AAAAAAFraaXJxflHJak=","visibility":"public","name":"Lifeline4","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFracmuDF+lhaM=","represent":"AAAAAAFracmuDF+kE\/w="}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Role1","_type":"UMLAttribute","_id":"AAAAAAFraaZ6\/\/lUfs0=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Role2","_type":"UMLAttribute","_id":"AAAAAAFraaZ+hflz7z4=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Role3","_type":"UMLAttribute","_id":"AAAAAAFraaaBWfmSagE=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Attribute1","_type":"UMLAttribute","_id":"AAAAAAFraalxF\/t6AL0=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Attribute2","_type":"UMLAttribute","_id":"AAAAAAFraamJjft9JA0=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Role4","_type":"UMLAttribute","_id":"AAAAAAFraan9PfuAsxg=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Role5","_type":"UMLAttribute","_id":"AAAAAAFraaoANvuf3vQ=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Role6","_type":"UMLAttribute","_id":"AAAAAAFraaoDHfu+2Bw=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Role7","_type":"UMLAttribute","_id":"AAAAAAFracmp0l+FF2g=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Role8","_type":"UMLAttribute","_id":"AAAAAAFracmuDF+kE\/w=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Role9","_type":"UMLAttribute","_id":"AAAAAAFracnHzF\/EK74=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Role10","_type":"UMLAttribute","_id":"AAAAAAFracnL\/1\/jmNA=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Role11","_type":"UMLAttribute","_id":"AAAAAAFracoyxWA\/jPs=","type":""}
+{"_parent":"AAAAAAFraaT0Evkz5S8=","visibility":"public","name":"Role12","_type":"UMLAttribute","_id":"AAAAAAFraco1gWBejFc=","type":""}
+END_OF_MODEL
+MESSAGE_COUNT Message18
+MESSAGE_COUNT Endpoint3
+INCOMING_MSG_COUNT Endpoint7 Lifeline4
+INCOMING_MSG_COUNT Lifeline1 Lifeline4
+PTCP_OBJ_COUNT Lifeline4
+INCOMING_MSG_COUNT Lifeline4 Role2
+MESSAGE_COUNT Message18
+MESSAGE_COUNT Role1
+INCOMING_MSG_COUNT Message18 Endpoint1
+MESSAGE_COUNT Lifeline2
+MESSAGE_COUNT Message11
+INCOMING_MSG_COUNT Lifeline2 Lifeline3
+PTCP_OBJ_COUNT Message7
+PTCP_OBJ_COUNT Message14
+MESSAGE_COUNT Endpoint1
+MESSAGE_COUNT Role6
+MESSAGE_COUNT Message17
+MESSAGE_COUNT Message18
+INCOMING_MSG_COUNT Role4 Attribute2
+MESSAGE_COUNT Message1
+MESSAGE_COUNT Message5
+PTCP_OBJ_COUNT Role7
+MESSAGE_COUNT Endpoint6
+MESSAGE_COUNT Lifeline4
+MESSAGE_COUNT Message10
+INCOMING_MSG_COUNT Lifeline2 Message12
+PTCP_OBJ_COUNT Attribute1
+INCOMING_MSG_COUNT Message14 Message11
+MESSAGE_COUNT Message9
+INCOMING_MSG_COUNT Message2 Lifeline1
+INCOMING_MSG_COUNT Message8 Role11
+PTCP_OBJ_COUNT Message1
+MESSAGE_COUNT Lifeline2
+INCOMING_MSG_COUNT Message19 Message18
+MESSAGE_COUNT Message8
+MESSAGE_COUNT Interaction2
+INCOMING_MSG_COUNT Message18 Endpoint1
+PTCP_OBJ_COUNT Endpoint3
+PTCP_OBJ_COUNT Message3
+PTCP_OBJ_COUNT Message13
+PTCP_OBJ_COUNT Message7
+MESSAGE_COUNT Message7
+PTCP_OBJ_COUNT Interaction2
+MESSAGE_COUNT Lifeline4
+PTCP_OBJ_COUNT Endpoint4
+INCOMING_MSG_COUNT Message19 Message3
+INCOMING_MSG_COUNT Message5 Role5
+MESSAGE_COUNT Message1
+PTCP_OBJ_COUNT Message19
+MESSAGE_COUNT Message12
+MESSAGE_COUNT Message9
+INCOMING_MSG_COUNT Message15 Interaction1
+INCOMING_MSG_COUNT Message18 Message1
+INCOMING_MSG_COUNT Endpoint4 Lifeline4
+INCOMING_MSG_COUNT Lifeline1 Lifeline1
+PTCP_OBJ_COUNT Lifeline1
+PTCP_OBJ_COUNT Message10
+INCOMING_MSG_COUNT Lifeline3 Message12
+INCOMING_MSG_COUNT Message15 Message5
+MESSAGE_COUNT Message1
+INCOMING_MSG_COUNT Endpoint2 Role7
+INCOMING_MSG_COUNT Message4 Lifeline4
+INCOMING_MSG_COUNT Message17 Endpoint5
+INCOMING_MSG_COUNT Interaction1 Message5
+INCOMING_MSG_COUNT Endpoint5 Role9
+INCOMING_MSG_COUNT Message12 Message11
+INCOMING_MSG_COUNT Message11 Message15
+PTCP_OBJ_COUNT Role2
+MESSAGE_COUNT Message11
+MESSAGE_COUNT Message11
+PTCP_OBJ_COUNT Message6
+PTCP_OBJ_COUNT Message4
+MESSAGE_COUNT Message17
+MESSAGE_COUNT Lifeline2
+PTCP_OBJ_COUNT Message9
+INCOMING_MSG_COUNT Message15 Lifeline3
+PTCP_OBJ_COUNT Message8
+MESSAGE_COUNT Message17
+PTCP_OBJ_COUNT Message12
+PTCP_OBJ_COUNT Attribute2
+PTCP_OBJ_COUNT Endpoint6
+MESSAGE_COUNT Message11
+PTCP_OBJ_COUNT Role11
+PTCP_OBJ_COUNT Message1
+PTCP_OBJ_COUNT Endpoint2
+PTCP_OBJ_COUNT Message10
+PTCP_OBJ_COUNT Attribute2
+PTCP_OBJ_COUNT Message5
+PTCP_OBJ_COUNT Endpoint3
+INCOMING_MSG_COUNT Attribute2 Message17
+MESSAGE_COUNT Message12
+INCOMING_MSG_COUNT Endpoint1 Endpoint1
+MESSAGE_COUNT Role9
+MESSAGE_COUNT Role6
+MESSAGE_COUNT Endpoint1
+MESSAGE_COUNT Message1
+MESSAGE_COUNT Message19
+MESSAGE_COUNT Message6
+INCOMING_MSG_COUNT Endpoint1 Lifeline4
+PTCP_OBJ_COUNT Message7
+PTCP_OBJ_COUNT Interaction2
+INCOMING_MSG_COUNT Lifeline2 Role10
+INCOMING_MSG_COUNT Lifeline2 Message13
+MESSAGE_COUNT Message6
+PTCP_OBJ_COUNT Role6
+INCOMING_MSG_COUNT Message10 Lifeline2
+PTCP_OBJ_COUNT Message13
+INCOMING_MSG_COUNT Interaction2 Message5
+INCOMING_MSG_COUNT Message10 Role8
+PTCP_OBJ_COUNT Role12
+MESSAGE_COUNT Message17
+INCOMING_MSG_COUNT Endpoint1 Role7
+MESSAGE_COUNT Endpoint5
+MESSAGE_COUNT Message17
+INCOMING_MSG_COUNT Message18 Role7
+INCOMING_MSG_COUNT Lifeline2 Role3
+PTCP_OBJ_COUNT Lifeline4
+PTCP_OBJ_COUNT Role11
+INCOMING_MSG_COUNT Endpoint2 Message15
+MESSAGE_COUNT Endpoint2
+PTCP_OBJ_COUNT Role5
+INCOMING_MSG_COUNT Message8 Message5
+INCOMING_MSG_COUNT Message19 Role7
+MESSAGE_COUNT Role9
+MESSAGE_COUNT Endpoint6
+INCOMING_MSG_COUNT Endpoint3 Role1
+PTCP_OBJ_COUNT Role3
+INCOMING_MSG_COUNT Lifeline3 Message12
+INCOMING_MSG_COUNT Message4 Attribute1
+PTCP_OBJ_COUNT Lifeline4
+MESSAGE_COUNT Message8
+MESSAGE_COUNT Role4
+MESSAGE_COUNT Message2
+PTCP_OBJ_COUNT Message11
+MESSAGE_COUNT Message14
+INCOMING_MSG_COUNT Endpoint5 Lifeline4
+MESSAGE_COUNT Message8
+INCOMING_MSG_COUNT Message14 Interaction2
+MESSAGE_COUNT Endpoint6
+MESSAGE_COUNT Message18
+MESSAGE_COUNT Endpoint4
+PTCP_OBJ_COUNT Role7
+INCOMING_MSG_COUNT Interaction1 Message7
+MESSAGE_COUNT Message8
+PTCP_OBJ_COUNT Lifeline1
+MESSAGE_COUNT Lifeline4
+MESSAGE_COUNT Endpoint7
+PTCP_OBJ_COUNT Message17
+INCOMING_MSG_COUNT Role10 Message11
+MESSAGE_COUNT Message5
+INCOMING_MSG_COUNT Endpoint2 Lifeline1
+INCOMING_MSG_COUNT Message6 Message16
+MESSAGE_COUNT Message16
+PTCP_OBJ_COUNT Attribute1
+PTCP_OBJ_COUNT Lifeline1
+INCOMING_MSG_COUNT Endpoint7 Message4
+PTCP_OBJ_COUNT Role4
+INCOMING_MSG_COUNT Attribute2 Message13
+MESSAGE_COUNT Message4
+INCOMING_MSG_COUNT Endpoint1 Lifeline3
+PTCP_OBJ_COUNT Endpoint5
+MESSAGE_COUNT Interaction1
+PTCP_OBJ_COUNT Endpoint3
+PTCP_OBJ_COUNT Message16
+PTCP_OBJ_COUNT Role7
+INCOMING_MSG_COUNT Message6 Message14
+PTCP_OBJ_COUNT Message14
+PTCP_OBJ_COUNT Message1
+MESSAGE_COUNT Role2
+MESSAGE_COUNT Message9
+PTCP_OBJ_COUNT Message2
+INCOMING_MSG_COUNT Endpoint5 Role4
+MESSAGE_COUNT Message11
+PTCP_OBJ_COUNT Lifeline1
+PTCP_OBJ_COUNT Message16
+MESSAGE_COUNT Message14
+INCOMING_MSG_COUNT Interaction1 Message1
+PTCP_OBJ_COUNT Message7
+MESSAGE_COUNT Interaction1
+PTCP_OBJ_COUNT Message9
+INCOMING_MSG_COUNT Message6 Message15
+PTCP_OBJ_COUNT Endpoint3
+PTCP_OBJ_COUNT Role1
+INCOMING_MSG_COUNT Message16 Role8
+MESSAGE_COUNT Lifeline1
+PTCP_OBJ_COUNT Role11
+INCOMING_MSG_COUNT Lifeline4 Message10
+PTCP_OBJ_COUNT Message9
+MESSAGE_COUNT Message15
+INCOMING_MSG_COUNT Endpoint2 Lifeline1
+PTCP_OBJ_COUNT Message2
+MESSAGE_COUNT Message6
+MESSAGE_COUNT Message12
+MESSAGE_COUNT Message10
+MESSAGE_COUNT Message2
+PTCP_OBJ_COUNT Message7
+MESSAGE_COUNT Endpoint6
+MESSAGE_COUNT Message1
+MESSAGE_COUNT Role6
+PTCP_OBJ_COUNT Message16
+MESSAGE_COUNT Message15
+PTCP_OBJ_COUNT Role12
+PTCP_OBJ_COUNT Message7
+PTCP_OBJ_COUNT Message19
+MESSAGE_COUNT Message3
+INCOMING_MSG_COUNT Message13 Endpoint4
+PTCP_OBJ_COUNT Message5
+MESSAGE_COUNT Endpoint3
+MESSAGE_COUNT Message12
+MESSAGE_COUNT Message1
+PTCP_OBJ_COUNT Role11
+INCOMING_MSG_COUNT Lifeline4 Lifeline4
+PTCP_OBJ_COUNT Endpoint5
+MESSAGE_COUNT Interaction1
+INCOMING_MSG_COUNT Role11 Message1
+INCOMING_MSG_COUNT Message5 Endpoint4
+PTCP_OBJ_COUNT Message2
+MESSAGE_COUNT Message17
+INCOMING_MSG_COUNT Message10 Message10
+INCOMING_MSG_COUNT Endpoint7 Endpoint5
+PTCP_OBJ_COUNT Message1
+MESSAGE_COUNT Endpoint5
+MESSAGE_COUNT Attribute1
+PTCP_OBJ_COUNT Lifeline2
+MESSAGE_COUNT Attribute2
+PTCP_OBJ_COUNT Role6
+PTCP_OBJ_COUNT Message4
+MESSAGE_COUNT Endpoint1
+INCOMING_MSG_COUNT Lifeline2 Message18
+PTCP_OBJ_COUNT Message7
+PTCP_OBJ_COUNT Lifeline4
+INCOMING_MSG_COUNT Interaction2 Lifeline4
+MESSAGE_COUNT Lifeline1
+MESSAGE_COUNT Lifeline3
+PTCP_OBJ_COUNT Role11
+PTCP_OBJ_COUNT Message17
+INCOMING_MSG_COUNT Message5 Role2
+PTCP_OBJ_COUNT Role9
+PTCP_OBJ_COUNT Endpoint3
+MESSAGE_COUNT Role6
+INCOMING_MSG_COUNT Message17 Role7
+MESSAGE_COUNT Endpoint5
+INCOMING_MSG_COUNT Message3 Lifeline4
+INCOMING_MSG_COUNT Lifeline4 Message17
+PTCP_OBJ_COUNT Lifeline3
+MESSAGE_COUNT Attribute2
+MESSAGE_COUNT Endpoint4
+INCOMING_MSG_COUNT Role2 Lifeline2
+MESSAGE_COUNT Message10
+MESSAGE_COUNT Role7
+MESSAGE_COUNT Endpoint4
+INCOMING_MSG_COUNT Message1 Role4
+MESSAGE_COUNT Role11
+PTCP_OBJ_COUNT Endpoint2
+MESSAGE_COUNT Message15
+MESSAGE_COUNT Endpoint2
+MESSAGE_COUNT Message14
+INCOMING_MSG_COUNT Message17 Message7
+INCOMING_MSG_COUNT Role12 Message10
+INCOMING_MSG_COUNT Lifeline4 Endpoint6
+INCOMING_MSG_COUNT Endpoint6 Role3
+INCOMING_MSG_COUNT Lifeline4 Message19
+INCOMING_MSG_COUNT Message12 Message12
+INCOMING_MSG_COUNT Message6 Message2
+INCOMING_MSG_COUNT Message10 Lifeline1
+MESSAGE_COUNT Message4
+PTCP_OBJ_COUNT Message4
+MESSAGE_COUNT Message18
+INCOMING_MSG_COUNT Message8 Message6
+INCOMING_MSG_COUNT Endpoint2 Lifeline4
+PTCP_OBJ_COUNT Message3
+PTCP_OBJ_COUNT Lifeline4
+PTCP_OBJ_COUNT Message4
+MESSAGE_COUNT Role2
+INCOMING_MSG_COUNT Role2 Message11
+MESSAGE_COUNT Message5
+MESSAGE_COUNT Endpoint6
+INCOMING_MSG_COUNT Message16 Message1
+MESSAGE_COUNT Message8
+MESSAGE_COUNT Message8
+PTCP_OBJ_COUNT Endpoint2
+PTCP_OBJ_COUNT Lifeline4
+PTCP_OBJ_COUNT Message14
+MESSAGE_COUNT Message14
+PTCP_OBJ_COUNT Message14
+PTCP_OBJ_COUNT Message18
+MESSAGE_COUNT Message11
+INCOMING_MSG_COUNT Endpoint2 Message15
+PTCP_OBJ_COUNT Message4
+INCOMING_MSG_COUNT Endpoint2 Message13
+INCOMING_MSG_COUNT Message15 Message8
+MESSAGE_COUNT Message13
+INCOMING_MSG_COUNT Role6 Endpoint7
+PTCP_OBJ_COUNT Endpoint4
+INCOMING_MSG_COUNT Endpoint1 Lifeline1
+PTCP_OBJ_COUNT Endpoint1
+PTCP_OBJ_COUNT Message7
+MESSAGE_COUNT Message10
+MESSAGE_COUNT Lifeline2
+INCOMING_MSG_COUNT Role12 Message6
+MESSAGE_COUNT Attribute1
+INCOMING_MSG_COUNT Endpoint3 Lifeline1
+INCOMING_MSG_COUNT Interaction2 Role4
+MESSAGE_COUNT Lifeline4
+INCOMING_MSG_COUNT Endpoint5 Interaction1
+PTCP_OBJ_COUNT Role12
+PTCP_OBJ_COUNT Message7
+MESSAGE_COUNT Message9
+INCOMING_MSG_COUNT Lifeline2 Message9
+MESSAGE_COUNT Message19
+INCOMING_MSG_COUNT Endpoint1 Role5
+INCOMING_MSG_COUNT Endpoint4 Message10
+MESSAGE_COUNT Endpoint3
+INCOMING_MSG_COUNT Message6 Endpoint6
+MESSAGE_COUNT Message1
+MESSAGE_COUNT Endpoint6
+MESSAGE_COUNT Lifeline4
+MESSAGE_COUNT Endpoint4
+PTCP_OBJ_COUNT Message18
+PTCP_OBJ_COUNT Role1
+MESSAGE_COUNT Role10
+PTCP_OBJ_COUNT Endpoint6
+MESSAGE_COUNT Attribute1
+MESSAGE_COUNT Message8
+PTCP_OBJ_COUNT Lifeline2
+PTCP_OBJ_COUNT Message8
+MESSAGE_COUNT Endpoint6
+MESSAGE_COUNT Message9
+MESSAGE_COUNT Lifeline4
+MESSAGE_COUNT Endpoint6
+INCOMING_MSG_COUNT Role5 Message5
+PTCP_OBJ_COUNT Message11
+PTCP_OBJ_COUNT Message6
+INCOMING_MSG_COUNT Message10 Message15
+PTCP_OBJ_COUNT Message6
+PTCP_OBJ_COUNT Endpoint3
+PTCP_OBJ_COUNT Message19
+MESSAGE_COUNT Role10
+MESSAGE_COUNT Role9
+PTCP_OBJ_COUNT Message11
+PTCP_OBJ_COUNT Role5
+PTCP_OBJ_COUNT Message17
+PTCP_OBJ_COUNT Lifeline4
+PTCP_OBJ_COUNT Message9
+MESSAGE_COUNT Message14
+PTCP_OBJ_COUNT Message18
+INCOMING_MSG_COUNT Endpoint2 Message6
+INCOMING_MSG_COUNT Message16 Lifeline4
+MESSAGE_COUNT Role8
+INCOMING_MSG_COUNT Endpoint5 Endpoint1
+INCOMING_MSG_COUNT Message13 Message14
+PTCP_OBJ_COUNT Endpoint4
+INCOMING_MSG_COUNT Role2 Attribute1
+INCOMING_MSG_COUNT Attribute1 Message9
+INCOMING_MSG_COUNT Endpoint6 Endpoint3
+INCOMING_MSG_COUNT Lifeline3 Message18
+INCOMING_MSG_COUNT Message6 Endpoint5
+MESSAGE_COUNT Message13
+PTCP_OBJ_COUNT Message4
+MESSAGE_COUNT Message10
+MESSAGE_COUNT Message7
+INCOMING_MSG_COUNT Endpoint5 Message13
+INCOMING_MSG_COUNT Role6 Lifeline4
+MESSAGE_COUNT Message3
+MESSAGE_COUNT Endpoint2
+PTCP_OBJ_COUNT Message14
+MESSAGE_COUNT Attribute2
+INCOMING_MSG_COUNT Role1 Lifeline1
+PTCP_OBJ_COUNT Role1
+MESSAGE_COUNT Endpoint6
+INCOMING_MSG_COUNT Lifeline1 Lifeline3
+PTCP_OBJ_COUNT Message9
+MESSAGE_COUNT Message1
+MESSAGE_COUNT Lifeline4
+MESSAGE_COUNT Message15
+INCOMING_MSG_COUNT Message12 Attribute2
+MESSAGE_COUNT Endpoint2
+INCOMING_MSG_COUNT Endpoint4 Message9
+MESSAGE_COUNT Lifeline4
+INCOMING_MSG_COUNT Message10 Message16
+INCOMING_MSG_COUNT Role9 Message16
+MESSAGE_COUNT Message5
+MESSAGE_COUNT Lifeline1
+INCOMING_MSG_COUNT Endpoint2 Role6
+MESSAGE_COUNT Message15
+INCOMING_MSG_COUNT Message11 Message18
+MESSAGE_COUNT Message7
+MESSAGE_COUNT Message3
+MESSAGE_COUNT Message11
+MESSAGE_COUNT Attribute1
+INCOMING_MSG_COUNT Lifeline4 Endpoint7
+MESSAGE_COUNT Message7
+PTCP_OBJ_COUNT Message13
+INCOMING_MSG_COUNT Message2 Message18
+PTCP_OBJ_COUNT Endpoint5
+MESSAGE_COUNT Message19
+PTCP_OBJ_COUNT Message14
+MESSAGE_COUNT Message11
+MESSAGE_COUNT Message14
+MESSAGE_COUNT Message10
+MESSAGE_COUNT Message3
+INCOMING_MSG_COUNT Endpoint5 Endpoint1
+MESSAGE_COUNT Lifeline4
+INCOMING_MSG_COUNT Lifeline2 Role8
+MESSAGE_COUNT Role11
+PTCP_OBJ_COUNT Endpoint3
+PTCP_OBJ_COUNT Role10
+PTCP_OBJ_COUNT Endpoint1
+PTCP_OBJ_COUNT Message17
+PTCP_OBJ_COUNT Endpoint6
+MESSAGE_COUNT Message4
+MESSAGE_COUNT Message9
+INCOMING_MSG_COUNT Message7 Interaction2
+PTCP_OBJ_COUNT Message12
+INCOMING_MSG_COUNT Endpoint6 Message18
+MESSAGE_COUNT Message17
+MESSAGE_COUNT Endpoint4
+PTCP_OBJ_COUNT Message7
+INCOMING_MSG_COUNT Endpoint6 Message17
+MESSAGE_COUNT Attribute1
+INCOMING_MSG_COUNT Message3 Lifeline4
+INCOMING_MSG_COUNT Endpoint4 Role9
+MESSAGE_COUNT Interaction2
+INCOMING_MSG_COUNT Message5 Role5
+PTCP_OBJ_COUNT Endpoint5
+MESSAGE_COUNT Lifeline4
+PTCP_OBJ_COUNT Endpoint2
+MESSAGE_COUNT Endpoint1
+MESSAGE_COUNT Message16
+MESSAGE_COUNT Role3
+PTCP_OBJ_COUNT Message9
+PTCP_OBJ_COUNT Role7
+MESSAGE_COUNT Endpoint5
+MESSAGE_COUNT Lifeline1
+MESSAGE_COUNT Endpoint5
+INCOMING_MSG_COUNT Role10 Message14
+PTCP_OBJ_COUNT Message9
+PTCP_OBJ_COUNT Lifeline1
+MESSAGE_COUNT Message9
+MESSAGE_COUNT Endpoint3
+INCOMING_MSG_COUNT Lifeline4 Message17
+INCOMING_MSG_COUNT Message10 Role3
+PTCP_OBJ_COUNT Message8
+PTCP_OBJ_COUNT Message14
+MESSAGE_COUNT Interaction1
+PTCP_OBJ_COUNT Message10
+MESSAGE_COUNT Message7
+PTCP_OBJ_COUNT Message4
+PTCP_OBJ_COUNT Role11
+INCOMING_MSG_COUNT Role2 Endpoint2
+INCOMING_MSG_COUNT Message16 Endpoint1
+PTCP_OBJ_COUNT Message3
+INCOMING_MSG_COUNT Message5 Lifeline3
+MESSAGE_COUNT Message19
+MESSAGE_COUNT Message1
+INCOMING_MSG_COUNT Message4 Role4
+MESSAGE_COUNT Role6
+MESSAGE_COUNT Lifeline3
+MESSAGE_COUNT Lifeline4
+INCOMING_MSG_COUNT Endpoint6 Endpoint2
+PTCP_OBJ_COUNT Message9
+INCOMING_MSG_COUNT Role6 Message13
+PTCP_OBJ_COUNT Message2
+PTCP_OBJ_COUNT Lifeline1
+PTCP_OBJ_COUNT Endpoint4
+INCOMING_MSG_COUNT Message11 Message4
+MESSAGE_COUNT Endpoint4
+MESSAGE_COUNT Message6
+MESSAGE_COUNT Endpoint4
+PTCP_OBJ_COUNT Endpoint5
+INCOMING_MSG_COUNT Message16 Lifeline2
+INCOMING_MSG_COUNT Message15 Endpoint6
+MESSAGE_COUNT Message5
+PTCP_OBJ_COUNT Endpoint5
+PTCP_OBJ_COUNT Message3
+MESSAGE_COUNT Interaction1
+INCOMING_MSG_COUNT Message12 Message5
+MESSAGE_COUNT Message17
+MESSAGE_COUNT Message14
+INCOMING_MSG_COUNT Message3 Message3
+PTCP_OBJ_COUNT Message18
+MESSAGE_COUNT Message8
+PTCP_OBJ_COUNT Endpoint2
+MESSAGE_COUNT Endpoint3
+MESSAGE_COUNT Role8
+INCOMING_MSG_COUNT Message13 Message9
+MESSAGE_COUNT Message11
+MESSAGE_COUNT Endpoint2
+PTCP_OBJ_COUNT Message11
+PTCP_OBJ_COUNT Message3
+MESSAGE_COUNT Message7
+INCOMING_MSG_COUNT Lifeline4 Lifeline2
+INCOMING_MSG_COUNT Lifeline1 Endpoint2
+INCOMING_MSG_COUNT Endpoint5 Message19
+INCOMING_MSG_COUNT Message16 Message5
+PTCP_OBJ_COUNT Role3
+INCOMING_MSG_COUNT Message10 Lifeline1
+MESSAGE_COUNT Role11
+INCOMING_MSG_COUNT Message16 Endpoint6
+INCOMING_MSG_COUNT Message7 Message1
+INCOMING_MSG_COUNT Endpoint2 Role6
+INCOMING_MSG_COUNT Role4 Lifeline4
+MESSAGE_COUNT Role9
+PTCP_OBJ_COUNT Endpoint3
+MESSAGE_COUNT Message5
+INCOMING_MSG_COUNT Endpoint3 Message3
+MESSAGE_COUNT Message6
+MESSAGE_COUNT Lifeline1
+PTCP_OBJ_COUNT Endpoint3
+PTCP_OBJ_COUNT Lifeline1
+PTCP_OBJ_COUNT Lifeline2
+MESSAGE_COUNT Endpoint5
+INCOMING_MSG_COUNT Message11 Message10
+MESSAGE_COUNT Endpoint1
+INCOMING_MSG_COUNT Endpoint1 Message19
+PTCP_OBJ_COUNT Message9
+PTCP_OBJ_COUNT Attribute1
+INCOMING_MSG_COUNT Message11 Endpoint6
+MESSAGE_COUNT Role7
+PTCP_OBJ_COUNT Role3
+PTCP_OBJ_COUNT Lifeline4
+MESSAGE_COUNT Message15
+INCOMING_MSG_COUNT Message17 Message16
+MESSAGE_COUNT Message1
+MESSAGE_COUNT Role8
+MESSAGE_COUNT Message17
+MESSAGE_COUNT Message3
+INCOMING_MSG_COUNT Attribute1 Endpoint2
+PTCP_OBJ_COUNT Message10
+INCOMING_MSG_COUNT Message18 Message10
+PTCP_OBJ_COUNT Endpoint3
+MESSAGE_COUNT Endpoint4
+MESSAGE_COUNT Message4
+INCOMING_MSG_COUNT Lifeline2 Endpoint4
+INCOMING_MSG_COUNT Role1 Role5
+MESSAGE_COUNT Role6
+MESSAGE_COUNT Lifeline4
+INCOMING_MSG_COUNT Role1 Lifeline1
+PTCP_OBJ_COUNT Message10
+PTCP_OBJ_COUNT Endpoint4
+INCOMING_MSG_COUNT Message11 Lifeline1
+INCOMING_MSG_COUNT Message10 Endpoint2
+PTCP_OBJ_COUNT Message10
+PTCP_OBJ_COUNT Message3
+INCOMING_MSG_COUNT Message10 Attribute1
+INCOMING_MSG_COUNT Message15 Lifeline4
+INCOMING_MSG_COUNT Message1 Interaction2
+MESSAGE_COUNT Message13
+INCOMING_MSG_COUNT Attribute2 Message8
+PTCP_OBJ_COUNT Message11
+INCOMING_MSG_COUNT Message10 Message11
+MESSAGE_COUNT Message2
+INCOMING_MSG_COUNT Message13 Message10
+MESSAGE_COUNT Endpoint7
+PTCP_OBJ_COUNT Message17
+MESSAGE_COUNT Attribute2
+MESSAGE_COUNT Role4
+PTCP_OBJ_COUNT Lifeline1
+PTCP_OBJ_COUNT Lifeline1
+INCOMING_MSG_COUNT Role9 Role11
+PTCP_OBJ_COUNT Message9
+MESSAGE_COUNT Message13
+INCOMING_MSG_COUNT Message7 Endpoint1
+MESSAGE_COUNT Message6
+MESSAGE_COUNT Attribute2
+MESSAGE_COUNT Message3
+PTCP_OBJ_COUNT Attribute1
+MESSAGE_COUNT Message7
+MESSAGE_COUNT Role9
+PTCP_OBJ_COUNT Message15
+PTCP_OBJ_COUNT Message3
+INCOMING_MSG_COUNT Role12 Message10
+MESSAGE_COUNT Message5
+INCOMING_MSG_COUNT Message5 Role6
+INCOMING_MSG_COUNT Endpoint1 Endpoint5
+PTCP_OBJ_COUNT Endpoint3
+INCOMING_MSG_COUNT Message6 Message7
+INCOMING_MSG_COUNT Endpoint5 Lifeline3
+MESSAGE_COUNT Message6
+PTCP_OBJ_COUNT Endpoint4
+PTCP_OBJ_COUNT Message16
+PTCP_OBJ_COUNT Lifeline4
+INCOMING_MSG_COUNT Message5 Endpoint2
+MESSAGE_COUNT Message14
+MESSAGE_COUNT Message2
+INCOMING_MSG_COUNT Lifeline4 Endpoint3
+PTCP_OBJ_COUNT Role2
+MESSAGE_COUNT Endpoint5
+PTCP_OBJ_COUNT Message15
+MESSAGE_COUNT Message3
+INCOMING_MSG_COUNT Message17 Message10
+MESSAGE_COUNT Message7
+PTCP_OBJ_COUNT Message8
+PTCP_OBJ_COUNT Endpoint4
+PTCP_OBJ_COUNT Endpoint2
+INCOMING_MSG_COUNT Lifeline1 Message2
+MESSAGE_COUNT Role6
+MESSAGE_COUNT Lifeline3
+MESSAGE_COUNT Lifeline4
+INCOMING_MSG_COUNT Message11 Message13
+INCOMING_MSG_COUNT Message12 Message10
+MESSAGE_COUNT Role11
+PTCP_OBJ_COUNT Message18
+PTCP_OBJ_COUNT Message7
+MESSAGE_COUNT Message5
+INCOMING_MSG_COUNT Message18 Lifeline4
+MESSAGE_COUNT Endpoint1
+MESSAGE_COUNT Message10
+INCOMING_MSG_COUNT Interaction2 Message19
+INCOMING_MSG_COUNT Role4 Message15
+INCOMING_MSG_COUNT Message3 Message15
+INCOMING_MSG_COUNT Message11 Message16
+PTCP_OBJ_COUNT Role4
+INCOMING_MSG_COUNT Message7 Message10
+MESSAGE_COUNT Message18
+MESSAGE_COUNT Lifeline4
+PTCP_OBJ_COUNT Role5
+PTCP_OBJ_COUNT Lifeline4
+MESSAGE_COUNT Lifeline2
+MESSAGE_COUNT Role10
+PTCP_OBJ_COUNT Role4
+PTCP_OBJ_COUNT Endpoint1
+PTCP_OBJ_COUNT Message2
+MESSAGE_COUNT Lifeline1
+INCOMING_MSG_COUNT Message7 Endpoint4
+INCOMING_MSG_COUNT Message15 Endpoint2
+MESSAGE_COUNT Message17
+PTCP_OBJ_COUNT Role7
+INCOMING_MSG_COUNT Role8 Message1
+PTCP_OBJ_COUNT Role11
+INCOMING_MSG_COUNT Message10 Endpoint2
+MESSAGE_COUNT Message1
+INCOMING_MSG_COUNT Message2 Endpoint5
+PTCP_OBJ_COUNT Message10
+MESSAGE_COUNT Role12
+PTCP_OBJ_COUNT Role11
+MESSAGE_COUNT Message4
+MESSAGE_COUNT Lifeline1
+MESSAGE_COUNT Role10
+INCOMING_MSG_COUNT Role11 Message16
+INCOMING_MSG_COUNT Message13 Lifeline3
+PTCP_OBJ_COUNT Message8
+PTCP_OBJ_COUNT Role3
+INCOMING_MSG_COUNT Message13 Message6
+MESSAGE_COUNT Role8
+INCOMING_MSG_COUNT Role7 Role1
+MESSAGE_COUNT Message2
+MESSAGE_COUNT Endpoint4
+MESSAGE_COUNT Message8
+PTCP_OBJ_COUNT Interaction1
+MESSAGE_COUNT Message8
+INCOMING_MSG_COUNT Lifeline2 Role10
+PTCP_OBJ_COUNT Message4
+INCOMING_MSG_COUNT Message17 Message11
+INCOMING_MSG_COUNT Message13 Lifeline2
+MESSAGE_COUNT Message6
+MESSAGE_COUNT Message16
+PTCP_OBJ_COUNT Lifeline3
+INCOMING_MSG_COUNT Message8 Message14
+MESSAGE_COUNT Message3
+MESSAGE_COUNT Interaction2
+PTCP_OBJ_COUNT Lifeline4
+INCOMING_MSG_COUNT Message15 Message1
+MESSAGE_COUNT Message19
+PTCP_OBJ_COUNT Role11
+INCOMING_MSG_COUNT Message9 Endpoint4
+MESSAGE_COUNT Message10
+MESSAGE_COUNT Endpoint7
+INCOMING_MSG_COUNT Message18 Message7
+MESSAGE_COUNT Role11
+INCOMING_MSG_COUNT Lifeline3 Role5
+MESSAGE_COUNT Attribute1
+PTCP_OBJ_COUNT Message9
+PTCP_OBJ_COUNT Attribute2
+MESSAGE_COUNT Message11
+INCOMING_MSG_COUNT Message10 Endpoint2
+INCOMING_MSG_COUNT Message18 Role10
+MESSAGE_COUNT Message6
+MESSAGE_COUNT Message13
+PTCP_OBJ_COUNT Endpoint1
+INCOMING_MSG_COUNT Lifeline4 Endpoint3
+PTCP_OBJ_COUNT Role8
+PTCP_OBJ_COUNT Message1
+PTCP_OBJ_COUNT Endpoint3
+PTCP_OBJ_COUNT Lifeline4
+MESSAGE_COUNT Message6
+PTCP_OBJ_COUNT Message16
+INCOMING_MSG_COUNT Message9 Role11
+PTCP_OBJ_COUNT Message5
+INCOMING_MSG_COUNT Message4 Lifeline2
+MESSAGE_COUNT Message19
+MESSAGE_COUNT Endpoint4
+MESSAGE_COUNT Message17
+PTCP_OBJ_COUNT Role3
+PTCP_OBJ_COUNT Message14
+MESSAGE_COUNT Message6
+MESSAGE_COUNT Endpoint7
+MESSAGE_COUNT Endpoint4
+PTCP_OBJ_COUNT Message2
+MESSAGE_COUNT Message18
+PTCP_OBJ_COUNT Role2
+INCOMING_MSG_COUNT Attribute1 Message1
+MESSAGE_COUNT Message8
+PTCP_OBJ_COUNT Interaction2
+PTCP_OBJ_COUNT Endpoint4
+INCOMING_MSG_COUNT Endpoint2 Role1
+PTCP_OBJ_COUNT Endpoint7
+INCOMING_MSG_COUNT Lifeline4 Endpoint6
+PTCP_OBJ_COUNT Interaction2
+MESSAGE_COUNT Lifeline3
+MESSAGE_COUNT Endpoint5
+PTCP_OBJ_COUNT Message18
+INCOMING_MSG_COUNT Message7 Message16
+MESSAGE_COUNT Message4
+INCOMING_MSG_COUNT Endpoint3 Lifeline3
+MESSAGE_COUNT Lifeline2
+PTCP_OBJ_COUNT Message19
+INCOMING_MSG_COUNT Endpoint2 Role12
+INCOMING_MSG_COUNT Interaction1 Message18
+MESSAGE_COUNT Message9
+PTCP_OBJ_COUNT Message4
+INCOMING_MSG_COUNT Lifeline1 Message4
+MESSAGE_COUNT Message7
+MESSAGE_COUNT Lifeline1
+MESSAGE_COUNT Message1
+PTCP_OBJ_COUNT Message4
+MESSAGE_COUNT Message8
+INCOMING_MSG_COUNT Message16 Endpoint4
+PTCP_OBJ_COUNT Message2
+MESSAGE_COUNT Attribute2
+PTCP_OBJ_COUNT Message5
+MESSAGE_COUNT Message6
+INCOMING_MSG_COUNT Endpoint6 Role9
+MESSAGE_COUNT Role3
+INCOMING_MSG_COUNT Message18 Endpoint3
+MESSAGE_COUNT Role7
+INCOMING_MSG_COUNT Role3 Message11
+INCOMING_MSG_COUNT Lifeline2 Role11
+MESSAGE_COUNT Endpoint5
+PTCP_OBJ_COUNT Attribute1
+MESSAGE_COUNT Role10
+INCOMING_MSG_COUNT Endpoint5 Lifeline4
+MESSAGE_COUNT Message2
+PTCP_OBJ_COUNT Message1
+INCOMING_MSG_COUNT Role9 Endpoint4
+INCOMING_MSG_COUNT Message10 Message8
+MESSAGE_COUNT Lifeline2
+PTCP_OBJ_COUNT Lifeline4
+MESSAGE_COUNT Message14
+PTCP_OBJ_COUNT Message17
+INCOMING_MSG_COUNT Endpoint3 Role3
+MESSAGE_COUNT Message11
+INCOMING_MSG_COUNT Role12 Message18
+MESSAGE_COUNT Message12
+PTCP_OBJ_COUNT Role8
+MESSAGE_COUNT Message17
+INCOMING_MSG_COUNT Message7 Message16
+PTCP_OBJ_COUNT Endpoint2
+PTCP_OBJ_COUNT Lifeline2
+INCOMING_MSG_COUNT Message17 Endpoint4
+MESSAGE_COUNT Endpoint3
+MESSAGE_COUNT Role2
+PTCP_OBJ_COUNT Message4
+INCOMING_MSG_COUNT Message7 Message3
+INCOMING_MSG_COUNT Message16 Message6
+MESSAGE_COUNT Message9
+PTCP_OBJ_COUNT Message19
+PTCP_OBJ_COUNT Endpoint3
+MESSAGE_COUNT Message17
+MESSAGE_COUNT Message3
+MESSAGE_COUNT Lifeline4
+MESSAGE_COUNT Message2
+MESSAGE_COUNT Message3
+MESSAGE_COUNT Message19
+MESSAGE_COUNT Endpoint5
+INCOMING_MSG_COUNT Message8 Message1
+INCOMING_MSG_COUNT Role1 Interaction1
+INCOMING_MSG_COUNT Role8 Message15
+INCOMING_MSG_COUNT Role4 Role6
+INCOMING_MSG_COUNT Message18 Lifeline4
+PTCP_OBJ_COUNT Message15
+MESSAGE_COUNT Role5
+MESSAGE_COUNT Lifeline4
+PTCP_OBJ_COUNT Role8
+INCOMING_MSG_COUNT Message17 Lifeline2
+MESSAGE_COUNT Message6
+INCOMING_MSG_COUNT Message8 Role3
+MESSAGE_COUNT Message13
+PTCP_OBJ_COUNT Message6
+MESSAGE_COUNT Message1
+INCOMING_MSG_COUNT Message12 Message9
+PTCP_OBJ_COUNT Role12
+MESSAGE_COUNT Endpoint4
+MESSAGE_COUNT Endpoint1
+MESSAGE_COUNT Role8
+INCOMING_MSG_COUNT Endpoint5 Endpoint3
+INCOMING_MSG_COUNT Message5 Role7
+PTCP_OBJ_COUNT Message7
+INCOMING_MSG_COUNT Message16 Message4
+MESSAGE_COUNT Role5
+```
+
+
