@@ -1,0 +1,959 @@
+---
+layout:     post
+title:      "2 in allInstrTest on UMLModel test Model"
+subtitle:   "Error Report"
+date:       2019-06-18 21:44:40
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - CONFLICT
+
+---
+
+**Time: 2019-06-18 21:44:40**
+
+> “Critical Errors Occurred!”
+
+## I've Fixed This Error
+<div>Corresponding File: <label id="file">2019-06-18-21-44-40.markdown</label><br>Click Me To Resolve: <button class="btn" id="delete" onclick="del()"></button></div>
+> Important Note: When you click this button, this report will be deleted on next commit, please make sure no one else could be affected by this bug.
+
+## Not My Fault, Diss Others!
+<div class="diss">
+    <section class="content">
+
+<li>
+    <button class="icobutton"><span class="fa fa-thumbs-o-down"> wyp</span><div class="count"><div class="number">Loading...</div></div></button>
+</li>
+
+<li>
+    <button class="icobutton"><span class="fa fa-thumbs-o-down"> mjl</span><div class="count"><div class="number">Loading...</div></div></button>
+</li>
+
+    </section>
+</div>
+
+## Details
+
+Error on line **179**
+
+```
+./gen_case/allInstrTest.mdj_UMLModel_Model_2.test
+```
+
+## Files
+
+Model File:
+
+[Source File](https://github.com/BXYMartin/OO-Public/blob/master/test_mdj/allInstrTest.mdj)
+
+Error Info:
+
+```
+[!] FAILED On Line 435
+[!] ERROR: Line 435 {Ok，state count of statemachine "nutter" is 12.} -> ['wyp']
+[!] ERROR: Line 435 {Ok，state count of statemachine "nutter" is 5.} -> ['mjl']
+```
+
+Test Case:
+
+```
+{"_parent":"AAAAAAFrYDCYjjpNBtA=","visibility":"public","name":"Interaction1","_type":"UMLInteraction","_id":"AAAAAAFrYDCYjjpOX6o="}
+{"_parent":"AAAAAAFrYDDIhDqMKWY=","visibility":"public","name":"oneLine","_type":"UMLInteraction","_id":"AAAAAAFrYDDIhDqNmtc="}
+{"_parent":"AAAAAAFrYDDIhDqNmtc=","visibility":"public","name":"Lifeline1","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrYDDIhDqZwBA=","represent":"AAAAAAFrYDDIhTqpsXQ="}
+{"_parent":"AAAAAAFrYDDIhDqMKWY=","visibility":"public","name":"dup","_type":"UMLInteraction","_id":"AAAAAAFrYDDIhDqaXoY="}
+{"_parent":"AAAAAAFrYDDIhDqMKWY=","visibility":"public","name":"dup","_type":"UMLInteraction","_id":"AAAAAAFrYDDIhDqfR6Y="}
+{"_parent":"AAAAAAFrYDDIhDqMKWY=","visibility":"public","name":"dup2","_type":"UMLInteraction","_id":"AAAAAAFrYDDIhDqk3mg="}
+{"_parent":"AAAAAAFrYDDIhDqMKWY=","visibility":"public","name":"Role1","_type":"UMLAttribute","_id":"AAAAAAFrYDDIhTqpsXQ=","type":""}
+{"_parent":"AAAAAAFrYDEOmDvCyAM=","visibility":"public","name":"normal","_type":"UMLInteraction","_id":"AAAAAAFrYDEOmDvDQ4k="}
+{"messageSort":"synchCall","_parent":"AAAAAAFrYDEOmDvDQ4k=","visibility":"public","name":"Message1","_type":"UMLMessage","_id":"AAAAAAFrYDEOmDvbcKA=","source":"AAAAAAFrYDEOmDvcESQ=","target":"AAAAAAFrYDEOmDvdkCQ="}
+{"_parent":"AAAAAAFrYDEOmDvDQ4k=","visibility":"public","name":"Lifeline1","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrYDEOmDvcESQ=","represent":"AAAAAAFrYDEOmzw1eOE="}
+{"_parent":"AAAAAAFrYDEOmDvDQ4k=","visibility":"public","name":"Lifeline2","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrYDEOmDvdkCQ=","represent":"AAAAAAFrYDEOmzw28FQ="}
+{"_parent":"AAAAAAFrYDEOmDvCyAM=","visibility":"public","name":"dup_inter","_type":"UMLInteraction","_id":"AAAAAAFrYDEOmDveGgM="}
+{"_parent":"AAAAAAFrYDEOmDveGgM=","visibility":"public","name":"Lifeline1","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrYDEOmTv4rHY=","represent":"AAAAAAFrYDEOmzw3g50="}
+{"_parent":"AAAAAAFrYDEOmDveGgM=","visibility":"public","name":"dup","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrYDEOmTv5KPs=","represent":"AAAAAAFrYDEOmzw4GXQ="}
+{"_parent":"AAAAAAFrYDEOmDveGgM=","visibility":"public","name":"dup","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrYDEOmTv6ok8=","represent":"AAAAAAFrYDEOmzw59Qw="}
+{"_parent":"AAAAAAFrYDEOmDvCyAM=","visibility":"public","name":"incoming","_type":"UMLInteraction","_id":"AAAAAAFrYDEOmTv7rEA="}
+{"messageSort":"asynchCall","_parent":"AAAAAAFrYDEOmTv7rEA=","visibility":"public","name":"Message2","_type":"UMLMessage","_id":"AAAAAAFrYDEOmjwp9gc=","source":"AAAAAAFrYDEOmjwuthg=","target":"AAAAAAFrYDEOmzwv2wc="}
+{"messageSort":"synchCall","_parent":"AAAAAAFrYDEOmTv7rEA=","visibility":"public","name":"Message1","_type":"UMLMessage","_id":"AAAAAAFrYDEOmjwq0gw=","source":"AAAAAAFrYDEOmjwt3Qw=","target":"AAAAAAFrYDEOmjwuthg="}
+{"messageSort":"reply","_parent":"AAAAAAFrYDEOmTv7rEA=","visibility":"public","name":null,"_type":"UMLMessage","_id":"AAAAAAFrYDEOmjwrhU0=","source":"AAAAAAFrYDEOmzwv2wc=","target":"AAAAAAFrYDEOmjwuthg="}
+{"messageSort":"synchCall","_parent":"AAAAAAFrYDEOmTv7rEA=","visibility":"public","name":"Message3","_type":"UMLMessage","_id":"AAAAAAFrYDEOmjwsiuA=","source":"AAAAAAFrYDEOmjwuthg=","target":"AAAAAAFrYDEOmjwuthg="}
+{"_parent":"AAAAAAFrYDEOmTv7rEA=","visibility":"public","name":"Lifeline1","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrYDEOmjwt3Qw=","represent":"AAAAAAFrYDEOmzw6kPo="}
+{"_parent":"AAAAAAFrYDEOmTv7rEA=","visibility":"public","name":"Lifeline2","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrYDEOmjwuthg=","represent":"AAAAAAFrYDEOmzw7mCQ="}
+{"_parent":"AAAAAAFrYDEOmTv7rEA=","visibility":"public","name":"Lifeline3","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrYDEOmzwv2wc=","represent":"AAAAAAFrYDEOmzw8pXc="}
+{"_parent":"AAAAAAFrYDEOmDvCyAM=","visibility":"public","name":"dup2","_type":"UMLInteraction","_id":"AAAAAAFrYDEOmzwwJc0="}
+{"_parent":"AAAAAAFrYDEOmDvCyAM=","visibility":"public","name":"Role1","_type":"UMLAttribute","_id":"AAAAAAFrYDEOmzw1eOE=","type":""}
+{"_parent":"AAAAAAFrYDEOmDvCyAM=","visibility":"public","name":"Role2","_type":"UMLAttribute","_id":"AAAAAAFrYDEOmzw28FQ=","type":""}
+{"_parent":"AAAAAAFrYDEOmDvCyAM=","visibility":"public","name":"Role3","_type":"UMLAttribute","_id":"AAAAAAFrYDEOmzw3g50=","type":""}
+{"_parent":"AAAAAAFrYDEOmDvCyAM=","visibility":"public","name":"Role4","_type":"UMLAttribute","_id":"AAAAAAFrYDEOmzw4GXQ=","type":""}
+{"_parent":"AAAAAAFrYDEOmDvCyAM=","visibility":"public","name":"Role5","_type":"UMLAttribute","_id":"AAAAAAFrYDEOmzw59Qw=","type":""}
+{"_parent":"AAAAAAFrYDEOmDvCyAM=","visibility":"public","name":"Role6","_type":"UMLAttribute","_id":"AAAAAAFrYDEOmzw6kPo=","type":""}
+{"_parent":"AAAAAAFrYDEOmDvCyAM=","visibility":"public","name":"Role7","_type":"UMLAttribute","_id":"AAAAAAFrYDEOmzw7mCQ=","type":""}
+{"_parent":"AAAAAAFrYDEOmDvCyAM=","visibility":"public","name":"Role8","_type":"UMLAttribute","_id":"AAAAAAFrYDEOmzw8pXc=","type":""}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","name":"NoState","_type":"UMLStateMachine","_id":"AAAAAAFrYDEiqT0ohp0="}
+{"_parent":"AAAAAAFrYDEiqT0ohp0=","visibility":"public","name":null,"_type":"UMLRegion","_id":"AAAAAAFrYDEiqT0qYSw="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","name":"OneState","_type":"UMLStateMachine","_id":"AAAAAAFrYDE2oT06+t4="}
+{"_parent":"AAAAAAFrYDE2oT06+t4=","visibility":"public","name":null,"_type":"UMLRegion","_id":"AAAAAAFrYDE2oT1AbEg="}
+{"_parent":"AAAAAAFrYDE2oT1AbEg=","visibility":"public","name":"init","_type":"UMLPseudostate","_id":"AAAAAAFrYDE2oT1BDOw="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","name":"Normal","_type":"UMLStateMachine","_id":"AAAAAAFrYDFK6D2jPV4="}
+{"_parent":"AAAAAAFrYDFK6D2jPV4=","visibility":"public","name":null,"_type":"UMLRegion","_id":"AAAAAAFrYDFK6T3IXI8="}
+{"_parent":"AAAAAAFrYDFK6T3IXI8=","visibility":"public","name":"State1","_type":"UMLState","_id":"AAAAAAFrYDFK6T3J0UM="}
+{"_parent":"AAAAAAFrYDFK6T3IXI8=","visibility":"public","name":"State2","_type":"UMLState","_id":"AAAAAAFrYDFK6T3KwwE="}
+{"_parent":"AAAAAAFrYDFK6T3IXI8=","visibility":"public","name":"State3","_type":"UMLState","_id":"AAAAAAFrYDFK6T3LRfI="}
+{"_parent":"AAAAAAFrYDFK6T3IXI8=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrYDFK6T3M6nw=","source":"AAAAAAFrYDFK6T3J0UM=","target":"AAAAAAFrYDFK6T3KwwE="}
+{"_parent":"AAAAAAFrYDFK6T3IXI8=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrYDFK6T3NZc8=","source":"AAAAAAFrYDFK6T3J0UM=","target":"AAAAAAFrYDFK6T3LRfI="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","name":"Self","_type":"UMLStateMachine","_id":"AAAAAAFrYDFdDD9\/hCU="}
+{"_parent":"AAAAAAFrYDFdDD9\/hCU=","visibility":"public","name":null,"_type":"UMLRegion","_id":"AAAAAAFrYDFdDkAV1G4="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","name":"self","_type":"UMLState","_id":"AAAAAAFrYDFdDkAWjMM="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","name":"State1","_type":"UMLState","_id":"AAAAAAFrYDFdDkAXrwo="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","name":"same","_type":"UMLState","_id":"AAAAAAFrYDFdDkAYTFk="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","name":"State3","_type":"UMLState","_id":"AAAAAAFrYDFdDkAZF7M="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","name":"State4","_type":"UMLState","_id":"AAAAAAFrYDFdDkAaMXg="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","name":"State5","_type":"UMLState","_id":"AAAAAAFrYDFdDkAbzUY="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","name":"State6","_type":"UMLState","_id":"AAAAAAFrYDFdDkAc41E="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","name":"State2","_type":"UMLState","_id":"AAAAAAFrYDFdDkAdCIc="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","name":"State7","_type":"UMLState","_id":"AAAAAAFrYDFdDkAeTtw="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","name":"State8","_type":"UMLState","_id":"AAAAAAFrYDFdDkAf7nc="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","name":"dup","_type":"UMLState","_id":"AAAAAAFrYDFdDkAgQtk="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","name":"dup","_type":"UMLState","_id":"AAAAAAFrYDFdDkAhjX8="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrYDFdDkAiD6s=","source":"AAAAAAFrYDFdDkAWjMM=","target":"AAAAAAFrYDFdDkAWjMM="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrYDFdDkAjI7c=","source":"AAAAAAFrYDFdDkAYTFk=","target":"AAAAAAFrYDFdDkAZF7M="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrYDFdDkAkbCI=","source":"AAAAAAFrYDFdDkAYTFk=","target":"AAAAAAFrYDFdDkAaMXg="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrYDFdDkAl6gc=","source":"AAAAAAFrYDFdDkAaMXg=","target":"AAAAAAFrYDFdDkAbzUY="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrYDFdDkAmxxs=","source":"AAAAAAFrYDFdDkAXrwo=","target":"AAAAAAFrYDFdDkAYTFk="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrYDFdDkAnxDU=","source":"AAAAAAFrYDFdDkAZF7M=","target":"AAAAAAFrYDFdDkAbzUY="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrYDFdDkAoURU=","source":"AAAAAAFrYDFdDkAbzUY=","target":"AAAAAAFrYDFdDkAc41E="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrYDFdDkApocU=","source":"AAAAAAFrYDFdDkAdCIc=","target":"AAAAAAFrYDFdDkAeTtw="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrYDFdDkAqIts=","source":"AAAAAAFrYDFdDkAeTtw=","target":"AAAAAAFrYDFdDkAf7nc="}
+{"_parent":"AAAAAAFrYDFdDkAV1G4=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrYDFdDkAricE=","source":"AAAAAAFrYDFdDkAf7nc=","target":"AAAAAAFrYDFdDkAeTtw="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","name":"dup_name","_type":"UMLStateMachine","_id":"AAAAAAFrYDFt9EGLBD8="}
+{"_parent":"AAAAAAFrYDFt9EGLBD8=","visibility":"public","name":null,"_type":"UMLRegion","_id":"AAAAAAFrYDFt9UGNUyM="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","name":"dup_name","_type":"UMLStateMachine","_id":"AAAAAAFrYDGAjUGV4gs="}
+{"_parent":"AAAAAAFrYDGAjUGV4gs=","visibility":"public","name":null,"_type":"UMLRegion","_id":"AAAAAAFrYDGAjUGXPEo="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","name":"nutter","_type":"UMLStateMachine","_id":"AAAAAAFraEX83pEBQUs="}
+{"_parent":"AAAAAAFraEX83pEBQUs=","visibility":"public","name":null,"_type":"UMLRegion","_id":"AAAAAAFraEX83pECN8k="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","name":null,"_type":"UMLPseudostate","_id":"AAAAAAFraEYPRpEInRg="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","name":"State1","_type":"UMLState","_id":"AAAAAAFraEZRGZEsdg4="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","name":null,"_type":"UMLPseudostate","_id":"AAAAAAFraEZjl5Fn05o="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","name":null,"_type":"UMLPseudostate","_id":"AAAAAAFraEZtLJF4QzM="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","name":"State2","_type":"UMLState","_id":"AAAAAAFraEbk7pGJt74="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","name":"State3","_type":"UMLState","_id":"AAAAAAFraEch5pHQT9Q="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","name":null,"_type":"UMLFinalState","_id":"AAAAAAFraEc0MZH1+nk="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","name":null,"_type":"UMLFinalState","_id":"AAAAAAFraEc7QpH6Nuw="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","name":null,"_type":"UMLFinalState","_id":"AAAAAAFraEdDQJH\/Ozw="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","name":"init","_type":"UMLPseudostate","_id":"AAAAAAFraEeJ4JI3kPU="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","name":null,"_type":"UMLFinalState","_id":"AAAAAAFraEgDG5JaXFo="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","name":null,"_type":"UMLFinalState","_id":"AAAAAAFraEgNcZJfIMc="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFraEZFXJEby2w=","source":"AAAAAAFraEYPRpEInRg=","target":"AAAAAAFraEYPRpEInRg="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFraEb+hJGu7l8=","source":"AAAAAAFraEbk7pGJt74=","target":"AAAAAAFraEZjl5Fn05o="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFraEcLg5G\/XRg=","source":"AAAAAAFraEbk7pGJt74=","target":"AAAAAAFraEZtLJF4QzM="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFraEdTnpIEKdM=","source":"AAAAAAFraEch5pHQT9Q=","target":"AAAAAAFraEc0MZH1+nk="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFraEdgo5IVFeM=","source":"AAAAAAFraEch5pHQT9Q=","target":"AAAAAAFraEc7QpH6Nuw="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFraEdv9ZImxWA=","source":"AAAAAAFraEch5pHQT9Q=","target":"AAAAAAFraEdDQJH\/Ozw="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFraEe4V5JIh2Q=","source":"AAAAAAFraEeJ4JI3kPU=","target":"AAAAAAFraEeJ4JI3kPU="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFraEgcy5JkRYI=","source":"AAAAAAFraEeJ4JI3kPU=","target":"AAAAAAFraEgDG5JaXFo="}
+{"_parent":"AAAAAAFraEX83pECN8k=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFraEgse5J1WVE=","source":"AAAAAAFraEeJ4JI3kPU=","target":"AAAAAAFraEgNcZJfIMc="}
+END_OF_MODEL
+INCOMING_MSG_COUNT State7 OneState
+TRANSITION_COUNT dup
+SUBSEQUENT_STATE_COUNT Message1 same
+TRANSITION_COUNT Lifeline1
+TRANSITION_COUNT Lifeline1
+STATE_COUNT State6
+PTCP_OBJ_COUNT Role8
+INCOMING_MSG_COUNT dup Message2
+SUBSEQUENT_STATE_COUNT Role8 State4
+TRANSITION_COUNT dup2
+MESSAGE_COUNT Lifeline2
+STATE_COUNT init
+STATE_COUNT State1
+TRANSITION_COUNT State8
+STATE_COUNT State8
+STATE_COUNT dup
+TRANSITION_COUNT State7
+CLASS_OPERATION_COUNT oneLine PARAM
+SUBSEQUENT_STATE_COUNT Role4 State1
+INCOMING_MSG_COUNT Role8 Lifeline2
+SUBSEQUENT_STATE_COUNT State8 Lifeline1
+SUBSEQUENT_STATE_COUNT Lifeline2 self
+SUBSEQUENT_STATE_COUNT State1 State2
+STATE_COUNT State5
+TRANSITION_COUNT State3
+STATE_COUNT dup
+TRANSITION_COUNT State3
+TRANSITION_COUNT Role2
+INCOMING_MSG_COUNT normal Self
+STATE_COUNT Lifeline1
+MESSAGE_COUNT OneState
+SUBSEQUENT_STATE_COUNT Role7 State4
+STATE_COUNT Lifeline2
+TRANSITION_COUNT Message1
+TRANSITION_COUNT dup_inter
+STATE_COUNT State3
+STATE_COUNT State2
+TRANSITION_COUNT Role1
+PTCP_OBJ_COUNT State7
+PTCP_OBJ_COUNT dup
+TRANSITION_COUNT State5
+STATE_COUNT init
+MESSAGE_COUNT dup
+SUBSEQUENT_STATE_COUNT nutter Lifeline1
+STATE_COUNT Lifeline1
+TRANSITION_COUNT Message3
+TRANSITION_COUNT State2
+SUBSEQUENT_STATE_COUNT State8 dup_name
+TRANSITION_COUNT same
+TRANSITION_COUNT Lifeline1
+CLASS_TOP_BASE dup_inter
+SUBSEQUENT_STATE_COUNT Lifeline2 Self
+PTCP_OBJ_COUNT dup_name
+INCOMING_MSG_COUNT dup Lifeline1
+CLASS_ATTR_COUNT State1 SELF_ONLY
+SUBSEQUENT_STATE_COUNT Lifeline2 Self
+STATE_COUNT Normal
+PTCP_OBJ_COUNT dup
+PTCP_OBJ_COUNT State4
+TRANSITION_COUNT dup_name
+INCOMING_MSG_COUNT State3 Lifeline2
+MESSAGE_COUNT Role8
+MESSAGE_COUNT dup2
+STATE_COUNT State7
+STATE_COUNT Lifeline1
+PTCP_OBJ_COUNT Role5
+STATE_COUNT Role8
+SUBSEQUENT_STATE_COUNT State3 Role4
+SUBSEQUENT_STATE_COUNT Role2 State2
+MESSAGE_COUNT Role2
+SUBSEQUENT_STATE_COUNT dup2 Role4
+MESSAGE_COUNT Role2
+TRANSITION_COUNT State2
+TRANSITION_COUNT nutter
+INCOMING_MSG_COUNT State7 Role1
+TRANSITION_COUNT State1
+PTCP_OBJ_COUNT Message1
+SUBSEQUENT_STATE_COUNT Role3 Lifeline2
+STATE_COUNT State5
+MESSAGE_COUNT State4
+TRANSITION_COUNT Message1
+SUBSEQUENT_STATE_COUNT dup Lifeline2
+TRANSITION_COUNT normal
+MESSAGE_COUNT dup
+TRANSITION_COUNT dup2
+STATE_COUNT Lifeline2
+STATE_COUNT State4
+PTCP_OBJ_COUNT Message3
+STATE_COUNT Self
+TRANSITION_COUNT dup2
+CLASS_ATTR_COUNT Lifeline1 ALL
+TRANSITION_COUNT State1
+TRANSITION_COUNT dup
+MESSAGE_COUNT State1
+TRANSITION_COUNT oneLine
+STATE_COUNT Lifeline3
+STATE_COUNT dup
+TRANSITION_COUNT dup2
+SUBSEQUENT_STATE_COUNT OneState dup
+SUBSEQUENT_STATE_COUNT Message1 Lifeline1
+TRANSITION_COUNT dup
+SUBSEQUENT_STATE_COUNT Role5 State3
+TRANSITION_COUNT State2
+INCOMING_MSG_COUNT State3 OneState
+MESSAGE_COUNT dup
+SUBSEQUENT_STATE_COUNT dup2 Lifeline1
+TRANSITION_COUNT Lifeline1
+SUBSEQUENT_STATE_COUNT dup2 same
+TRANSITION_COUNT dup_name
+SUBSEQUENT_STATE_COUNT dup Role1
+STATE_COUNT dup_inter
+STATE_COUNT Message2
+SUBSEQUENT_STATE_COUNT Role1 Lifeline1
+STATE_COUNT Lifeline1
+INCOMING_MSG_COUNT dup_name Message3
+INCOMING_MSG_COUNT State3 State4
+SUBSEQUENT_STATE_COUNT NoState Message1
+MESSAGE_COUNT Lifeline1
+SUBSEQUENT_STATE_COUNT init dup2
+PTCP_OBJ_COUNT Role1
+SUBSEQUENT_STATE_COUNT OneState NoState
+TRANSITION_COUNT Role2
+STATE_COUNT Lifeline1
+TRANSITION_COUNT init
+STATE_COUNT dup_inter
+TRANSITION_COUNT State1
+TRANSITION_COUNT Role1
+SUBSEQUENT_STATE_COUNT dup_name Message1
+SUBSEQUENT_STATE_COUNT Role1 dup
+STATE_COUNT State1
+STATE_COUNT Message1
+STATE_COUNT State8
+STATE_COUNT incoming
+STATE_COUNT Role6
+STATE_COUNT Role4
+TRANSITION_COUNT State4
+TRANSITION_COUNT same
+STATE_COUNT State4
+STATE_COUNT Lifeline2
+MESSAGE_COUNT State1
+PTCP_OBJ_COUNT State7
+STATE_COUNT Interaction1
+STATE_COUNT State2
+TRANSITION_COUNT State1
+PTCP_OBJ_COUNT State2
+STATE_COUNT Lifeline3
+PTCP_OBJ_COUNT Message1
+SUBSEQUENT_STATE_COUNT State1 dup2
+SUBSEQUENT_STATE_COUNT State1 Role6
+CLASS_ATTR_VISIBILITY State1 dup2
+MESSAGE_COUNT State3
+PTCP_OBJ_COUNT dup
+CLASS_OPERATION_COUNT State2 PARAM
+STATE_COUNT Lifeline1
+STATE_COUNT State1
+STATE_COUNT State6
+MESSAGE_COUNT State6
+TRANSITION_COUNT Lifeline3
+TRANSITION_COUNT State6
+MESSAGE_COUNT State5
+TRANSITION_COUNT Lifeline3
+SUBSEQUENT_STATE_COUNT State2 normal
+SUBSEQUENT_STATE_COUNT dup2 dup
+MESSAGE_COUNT Normal
+INCOMING_MSG_COUNT State2 Lifeline3
+SUBSEQUENT_STATE_COUNT Role1 Role1
+STATE_COUNT Lifeline2
+STATE_COUNT State4
+TRANSITION_COUNT Message3
+INCOMING_MSG_COUNT Lifeline3 same
+TRANSITION_COUNT dup
+MESSAGE_COUNT Lifeline2
+PTCP_OBJ_COUNT State2
+TRANSITION_COUNT Lifeline2
+TRANSITION_COUNT Role3
+MESSAGE_COUNT dup_name
+STATE_COUNT State3
+STATE_COUNT dup
+MESSAGE_COUNT Message1
+SUBSEQUENT_STATE_COUNT Lifeline3 State1
+TRANSITION_COUNT State3
+INCOMING_MSG_COUNT State6 Normal
+STATE_COUNT Role4
+STATE_COUNT Lifeline2
+STATE_COUNT dup
+SUBSEQUENT_STATE_COUNT Lifeline2 OneState
+INCOMING_MSG_COUNT State2 Role3
+SUBSEQUENT_STATE_COUNT NoState State5
+PTCP_OBJ_COUNT oneLine
+PTCP_OBJ_COUNT dup
+CLASS_IMPLEMENT_INTERFACE_LIST normal
+CLASS_IMPLEMENT_INTERFACE_LIST dup
+TRANSITION_COUNT Message3
+PTCP_OBJ_COUNT Lifeline1
+STATE_COUNT self
+STATE_COUNT Role4
+TRANSITION_COUNT oneLine
+INCOMING_MSG_COUNT init nutter
+TRANSITION_COUNT Message1
+MESSAGE_COUNT normal
+SUBSEQUENT_STATE_COUNT Lifeline3 State1
+PTCP_OBJ_COUNT incoming
+STATE_COUNT Role2
+PTCP_OBJ_COUNT State2
+STATE_COUNT Role1
+TRANSITION_COUNT OneState
+PTCP_OBJ_COUNT dup
+SUBSEQUENT_STATE_COUNT nutter dup
+SUBSEQUENT_STATE_COUNT State1 dup
+SUBSEQUENT_STATE_COUNT State1 dup
+TRANSITION_COUNT dup_name
+PTCP_OBJ_COUNT State2
+STATE_COUNT self
+STATE_COUNT Self
+PTCP_OBJ_COUNT Role6
+TRANSITION_COUNT OneState
+TRANSITION_COUNT normal
+PTCP_OBJ_COUNT dup2
+TRANSITION_COUNT State1
+STATE_COUNT NoState
+STATE_COUNT State2
+SUBSEQUENT_STATE_COUNT dup_inter State3
+TRANSITION_COUNT Lifeline2
+SUBSEQUENT_STATE_COUNT Message2 oneLine
+STATE_COUNT State3
+STATE_COUNT Message2
+SUBSEQUENT_STATE_COUNT Role1 nutter
+TRANSITION_COUNT Self
+CLASS_IMPLEMENT_INTERFACE_LIST same
+SUBSEQUENT_STATE_COUNT dup Lifeline1
+PTCP_OBJ_COUNT Message3
+SUBSEQUENT_STATE_COUNT State6 State2
+STATE_COUNT Role1
+TRANSITION_COUNT dup_inter
+TRANSITION_COUNT dup_name
+SUBSEQUENT_STATE_COUNT Message1 State4
+SUBSEQUENT_STATE_COUNT State2 NoState
+INCOMING_MSG_COUNT OneState nutter
+PTCP_OBJ_COUNT Role6
+TRANSITION_COUNT Role8
+STATE_COUNT OneState
+STATE_COUNT Self
+PTCP_OBJ_COUNT State1
+TRANSITION_COUNT State3
+SUBSEQUENT_STATE_COUNT Message2 init
+MESSAGE_COUNT State3
+TRANSITION_COUNT Role2
+PTCP_OBJ_COUNT State8
+TRANSITION_COUNT init
+PTCP_OBJ_COUNT OneState
+TRANSITION_COUNT State2
+SUBSEQUENT_STATE_COUNT dup Lifeline1
+INCOMING_MSG_COUNT dup Interaction1
+STATE_COUNT Role2
+TRANSITION_COUNT oneLine
+MESSAGE_COUNT nutter
+MESSAGE_COUNT incoming
+STATE_COUNT State8
+PTCP_OBJ_COUNT Role6
+CLASS_COUNT
+MESSAGE_COUNT Role4
+TRANSITION_COUNT Message1
+STATE_COUNT Lifeline1
+SUBSEQUENT_STATE_COUNT Self State7
+SUBSEQUENT_STATE_COUNT Role7 State5
+PTCP_OBJ_COUNT dup
+MESSAGE_COUNT init
+SUBSEQUENT_STATE_COUNT same Role2
+TRANSITION_COUNT State2
+MESSAGE_COUNT State3
+TRANSITION_COUNT State1
+STATE_COUNT Lifeline1
+SUBSEQUENT_STATE_COUNT Role3 NoState
+TRANSITION_COUNT dup
+PTCP_OBJ_COUNT Message1
+PTCP_OBJ_COUNT Role8
+TRANSITION_COUNT init
+SUBSEQUENT_STATE_COUNT Message1 self
+STATE_COUNT dup_name
+SUBSEQUENT_STATE_COUNT State3 Role2
+STATE_COUNT Message3
+PTCP_OBJ_COUNT Lifeline1
+INCOMING_MSG_COUNT normal Lifeline1
+STATE_COUNT dup
+TRANSITION_COUNT Role7
+TRANSITION_COUNT OneState
+CLASS_OPERATION_VISIBILITY State1 dup
+SUBSEQUENT_STATE_COUNT State5 Role5
+SUBSEQUENT_STATE_COUNT Lifeline2 Lifeline1
+MESSAGE_COUNT State3
+PTCP_OBJ_COUNT State3
+SUBSEQUENT_STATE_COUNT dup dup_name
+SUBSEQUENT_STATE_COUNT State1 dup_name
+SUBSEQUENT_STATE_COUNT Lifeline2 same
+STATE_COUNT Role2
+MESSAGE_COUNT Lifeline1
+INCOMING_MSG_COUNT Role1 Message3
+SUBSEQUENT_STATE_COUNT Role3 dup_inter
+MESSAGE_COUNT State1
+SUBSEQUENT_STATE_COUNT State2 Role4
+SUBSEQUENT_STATE_COUNT dup nutter
+SUBSEQUENT_STATE_COUNT Lifeline1 State3
+PTCP_OBJ_COUNT Role3
+SUBSEQUENT_STATE_COUNT Interaction1 dup_inter
+TRANSITION_COUNT Role6
+SUBSEQUENT_STATE_COUNT dup2 NoState
+TRANSITION_COUNT Lifeline3
+SUBSEQUENT_STATE_COUNT Role8 dup
+INCOMING_MSG_COUNT Role7 Lifeline2
+STATE_COUNT init
+SUBSEQUENT_STATE_COUNT Role2 Role1
+SUBSEQUENT_STATE_COUNT State7 same
+SUBSEQUENT_STATE_COUNT Self Message2
+TRANSITION_COUNT Message1
+SUBSEQUENT_STATE_COUNT Role2 Interaction1
+TRANSITION_COUNT State5
+SUBSEQUENT_STATE_COUNT Role1 State1
+TRANSITION_COUNT Role1
+TRANSITION_COUNT dup
+TRANSITION_COUNT Lifeline2
+STATE_COUNT Lifeline1
+CLASS_COUNT
+TRANSITION_COUNT Lifeline1
+SUBSEQUENT_STATE_COUNT Self State2
+CLASS_COUNT
+SUBSEQUENT_STATE_COUNT State1 Role2
+PTCP_OBJ_COUNT incoming
+SUBSEQUENT_STATE_COUNT Role5 Message2
+TRANSITION_COUNT Role2
+TRANSITION_COUNT Interaction1
+MESSAGE_COUNT Lifeline1
+SUBSEQUENT_STATE_COUNT incoming State2
+STATE_COUNT dup_name
+TRANSITION_COUNT State2
+STATE_COUNT dup2
+INCOMING_MSG_COUNT State3 dup_name
+PTCP_OBJ_COUNT State3
+SUBSEQUENT_STATE_COUNT State3 State1
+PTCP_OBJ_COUNT dup
+PTCP_OBJ_COUNT Lifeline2
+SUBSEQUENT_STATE_COUNT State1 oneLine
+SUBSEQUENT_STATE_COUNT Lifeline1 State6
+TRANSITION_COUNT State5
+PTCP_OBJ_COUNT State2
+TRANSITION_COUNT Lifeline1
+STATE_COUNT Self
+SUBSEQUENT_STATE_COUNT Lifeline2 dup2
+STATE_COUNT Message1
+TRANSITION_COUNT Message2
+STATE_COUNT State2
+STATE_COUNT Lifeline2
+STATE_COUNT State2
+STATE_COUNT dup
+STATE_COUNT dup
+TRANSITION_COUNT Lifeline1
+STATE_COUNT State4
+STATE_COUNT State1
+SUBSEQUENT_STATE_COUNT Self dup
+SUBSEQUENT_STATE_COUNT init Role1
+TRANSITION_COUNT Message1
+PTCP_OBJ_COUNT State6
+PTCP_OBJ_COUNT self
+STATE_COUNT dup_name
+TRANSITION_COUNT self
+MESSAGE_COUNT dup_inter
+TRANSITION_COUNT Lifeline2
+TRANSITION_COUNT self
+TRANSITION_COUNT dup
+MESSAGE_COUNT Lifeline1
+SUBSEQUENT_STATE_COUNT Message1 State8
+SUBSEQUENT_STATE_COUNT self dup
+TRANSITION_COUNT State3
+STATE_COUNT oneLine
+MESSAGE_COUNT NoState
+SUBSEQUENT_STATE_COUNT State4 State1
+MESSAGE_COUNT Message2
+SUBSEQUENT_STATE_COUNT dup2 Lifeline2
+STATE_COUNT State1
+SUBSEQUENT_STATE_COUNT dup_name Message1
+STATE_COUNT Message2
+PTCP_OBJ_COUNT dup_name
+SUBSEQUENT_STATE_COUNT Role3 Role5
+MESSAGE_COUNT Role3
+SUBSEQUENT_STATE_COUNT Lifeline2 init
+SUBSEQUENT_STATE_COUNT dup State7
+SUBSEQUENT_STATE_COUNT Lifeline1 State1
+MESSAGE_COUNT State3
+STATE_COUNT State6
+TRANSITION_COUNT Role2
+TRANSITION_COUNT dup_name
+STATE_COUNT Role4
+TRANSITION_COUNT Role2
+TRANSITION_COUNT Role2
+INCOMING_MSG_COUNT dup State3
+PTCP_OBJ_COUNT init
+INCOMING_MSG_COUNT Message1 Role8
+SUBSEQUENT_STATE_COUNT State3 State3
+SUBSEQUENT_STATE_COUNT Lifeline2 State1
+TRANSITION_COUNT dup_inter
+TRANSITION_COUNT oneLine
+STATE_COUNT State1
+PTCP_OBJ_COUNT normal
+STATE_COUNT incoming
+SUBSEQUENT_STATE_COUNT dup dup2
+SUBSEQUENT_STATE_COUNT Role2 State7
+TRANSITION_COUNT dup_name
+STATE_COUNT State3
+MESSAGE_COUNT Lifeline1
+INCOMING_MSG_COUNT dup dup_inter
+SUBSEQUENT_STATE_COUNT Role7 State3
+INCOMING_MSG_COUNT State2 Lifeline1
+INCOMING_MSG_COUNT Role1 dup2
+STATE_COUNT State2
+INCOMING_MSG_COUNT init oneLine
+SUBSEQUENT_STATE_COUNT Message2 nutter
+CLASS_COUNT
+STATE_COUNT State5
+TRANSITION_COUNT State2
+TRANSITION_COUNT dup
+STATE_COUNT Message3
+MESSAGE_COUNT nutter
+CLASS_OPERATION_VISIBILITY dup dup
+CLASS_ATTR_COUNT dup ALL
+TRANSITION_COUNT State4
+SUBSEQUENT_STATE_COUNT Role4 Role1
+INCOMING_MSG_COUNT dup2 Lifeline2
+TRANSITION_COUNT nutter
+TRANSITION_COUNT Lifeline2
+SUBSEQUENT_STATE_COUNT Lifeline2 State4
+STATE_COUNT State1
+INCOMING_MSG_COUNT init dup_name
+STATE_COUNT Self
+SUBSEQUENT_STATE_COUNT Lifeline1 Lifeline1
+TRANSITION_COUNT Role6
+STATE_COUNT nutter
+SUBSEQUENT_STATE_COUNT self Message3
+TRANSITION_COUNT Normal
+MESSAGE_COUNT OneState
+SUBSEQUENT_STATE_COUNT Lifeline2 Message1
+STATE_COUNT State1
+SUBSEQUENT_STATE_COUNT State1 Lifeline3
+STATE_COUNT Normal
+MESSAGE_COUNT State1
+TRANSITION_COUNT Role6
+INCOMING_MSG_COUNT self Message1
+TRANSITION_COUNT Lifeline1
+CLASS_ASSO_COUNT oneLine
+TRANSITION_COUNT oneLine
+SUBSEQUENT_STATE_COUNT Message3 State2
+STATE_COUNT same
+STATE_COUNT Role7
+SUBSEQUENT_STATE_COUNT Role3 State5
+MESSAGE_COUNT dup
+STATE_COUNT Message1
+STATE_COUNT State2
+TRANSITION_COUNT dup_inter
+TRANSITION_COUNT Message1
+TRANSITION_COUNT Role3
+TRANSITION_COUNT NoState
+SUBSEQUENT_STATE_COUNT Role1 self
+SUBSEQUENT_STATE_COUNT State2 Role5
+SUBSEQUENT_STATE_COUNT Self dup2
+TRANSITION_COUNT init
+STATE_COUNT State3
+MESSAGE_COUNT OneState
+STATE_COUNT State6
+STATE_COUNT Role4
+TRANSITION_COUNT dup
+STATE_COUNT dup_inter
+SUBSEQUENT_STATE_COUNT State3 State2
+STATE_COUNT State5
+TRANSITION_COUNT Self
+SUBSEQUENT_STATE_COUNT Message3 State7
+SUBSEQUENT_STATE_COUNT State2 init
+PTCP_OBJ_COUNT Role5
+STATE_COUNT State3
+STATE_COUNT State1
+STATE_COUNT dup
+SUBSEQUENT_STATE_COUNT State3 Role3
+STATE_COUNT Self
+PTCP_OBJ_COUNT State3
+PTCP_OBJ_COUNT Role6
+PTCP_OBJ_COUNT dup
+TRANSITION_COUNT Lifeline1
+STATE_COUNT Role5
+PTCP_OBJ_COUNT same
+CLASS_INFO_HIDDEN init
+TRANSITION_COUNT State4
+TRANSITION_COUNT Lifeline3
+STATE_COUNT normal
+STATE_COUNT Role6
+SUBSEQUENT_STATE_COUNT Message2 State1
+SUBSEQUENT_STATE_COUNT State7 State2
+TRANSITION_COUNT Role7
+SUBSEQUENT_STATE_COUNT dup init
+PTCP_OBJ_COUNT Message2
+SUBSEQUENT_STATE_COUNT Lifeline1 State3
+INCOMING_MSG_COUNT Lifeline2 Normal
+TRANSITION_COUNT same
+TRANSITION_COUNT Lifeline1
+STATE_COUNT State6
+STATE_COUNT Lifeline2
+SUBSEQUENT_STATE_COUNT dup2 init
+SUBSEQUENT_STATE_COUNT Role2 dup
+PTCP_OBJ_COUNT dup_name
+STATE_COUNT dup
+SUBSEQUENT_STATE_COUNT State3 State7
+STATE_COUNT Lifeline2
+PTCP_OBJ_COUNT Message2
+TRANSITION_COUNT Lifeline1
+PTCP_OBJ_COUNT Role1
+TRANSITION_COUNT State5
+TRANSITION_COUNT Lifeline1
+STATE_COUNT Interaction1
+SUBSEQUENT_STATE_COUNT dup_name OneState
+MESSAGE_COUNT incoming
+PTCP_OBJ_COUNT State2
+STATE_COUNT Role4
+STATE_COUNT Lifeline3
+SUBSEQUENT_STATE_COUNT State6 dup
+TRANSITION_COUNT State2
+INCOMING_MSG_COUNT State1 Message2
+INCOMING_MSG_COUNT dup_name Role6
+STATE_COUNT dup
+MESSAGE_COUNT dup
+INCOMING_MSG_COUNT dup2 Lifeline2
+PTCP_OBJ_COUNT State2
+TRANSITION_COUNT State3
+STATE_COUNT State6
+PTCP_OBJ_COUNT Lifeline2
+STATE_COUNT dup_name
+SUBSEQUENT_STATE_COUNT same init
+MESSAGE_COUNT Lifeline1
+SUBSEQUENT_STATE_COUNT dup_name nutter
+TRANSITION_COUNT dup2
+TRANSITION_COUNT dup
+MESSAGE_COUNT self
+SUBSEQUENT_STATE_COUNT Lifeline2 State6
+SUBSEQUENT_STATE_COUNT State1 dup
+CLASS_OPERATION_VISIBILITY State2 normal
+PTCP_OBJ_COUNT incoming
+STATE_COUNT State1
+STATE_COUNT State4
+STATE_COUNT State2
+TRANSITION_COUNT normal
+MESSAGE_COUNT Role6
+TRANSITION_COUNT Role3
+SUBSEQUENT_STATE_COUNT State1 Lifeline2
+SUBSEQUENT_STATE_COUNT same Role1
+MESSAGE_COUNT State4
+INCOMING_MSG_COUNT Role1 NoState
+STATE_COUNT State3
+STATE_COUNT same
+INCOMING_MSG_COUNT oneLine Lifeline2
+SUBSEQUENT_STATE_COUNT State8 Role4
+PTCP_OBJ_COUNT Lifeline1
+MESSAGE_COUNT State1
+MESSAGE_COUNT Role3
+STATE_COUNT oneLine
+STATE_COUNT Role2
+INCOMING_MSG_COUNT State6 State2
+SUBSEQUENT_STATE_COUNT Role5 State6
+SUBSEQUENT_STATE_COUNT Lifeline1 State1
+SUBSEQUENT_STATE_COUNT dup2 OneState
+SUBSEQUENT_STATE_COUNT Role1 State1
+MESSAGE_COUNT dup
+INCOMING_MSG_COUNT Message2 Role7
+TRANSITION_COUNT Role2
+PTCP_OBJ_COUNT Role1
+SUBSEQUENT_STATE_COUNT dup_name incoming
+STATE_COUNT dup
+STATE_COUNT normal
+INCOMING_MSG_COUNT State2 dup
+STATE_COUNT dup
+TRANSITION_COUNT dup_name
+MESSAGE_COUNT Lifeline1
+CLASS_ASSO_COUNT Lifeline1
+SUBSEQUENT_STATE_COUNT Lifeline1 Lifeline2
+TRANSITION_COUNT Role6
+INCOMING_MSG_COUNT Role1 Lifeline1
+PTCP_OBJ_COUNT Lifeline2
+TRANSITION_COUNT Lifeline3
+SUBSEQUENT_STATE_COUNT dup2 oneLine
+INCOMING_MSG_COUNT Message2 oneLine
+TRANSITION_COUNT dup
+PTCP_OBJ_COUNT State7
+STATE_COUNT Lifeline3
+STATE_COUNT State3
+SUBSEQUENT_STATE_COUNT Lifeline1 dup2
+SUBSEQUENT_STATE_COUNT Self Role5
+PTCP_OBJ_COUNT self
+SUBSEQUENT_STATE_COUNT dup dup_name
+MESSAGE_COUNT State4
+SUBSEQUENT_STATE_COUNT State1 NoState
+TRANSITION_COUNT dup
+PTCP_OBJ_COUNT Message3
+SUBSEQUENT_STATE_COUNT dup2 Lifeline2
+TRANSITION_COUNT nutter
+STATE_COUNT State6
+PTCP_OBJ_COUNT State7
+MESSAGE_COUNT Role4
+TRANSITION_COUNT dup2
+MESSAGE_COUNT self
+INCOMING_MSG_COUNT Lifeline1 dup_name
+SUBSEQUENT_STATE_COUNT Interaction1 Message2
+STATE_COUNT State4
+INCOMING_MSG_COUNT State5 normal
+SUBSEQUENT_STATE_COUNT Normal Message3
+SUBSEQUENT_STATE_COUNT dup State3
+MESSAGE_COUNT State1
+STATE_COUNT NoState
+INCOMING_MSG_COUNT same State2
+STATE_COUNT State2
+STATE_COUNT Lifeline2
+TRANSITION_COUNT State5
+SUBSEQUENT_STATE_COUNT State1 Lifeline1
+TRANSITION_COUNT State4
+SUBSEQUENT_STATE_COUNT Normal Self
+PTCP_OBJ_COUNT Role4
+STATE_COUNT Lifeline2
+PTCP_OBJ_COUNT NoState
+TRANSITION_COUNT Role1
+SUBSEQUENT_STATE_COUNT State1 Role1
+TRANSITION_COUNT Role2
+STATE_COUNT Lifeline2
+SUBSEQUENT_STATE_COUNT nutter init
+INCOMING_MSG_COUNT Role6 State5
+STATE_COUNT State1
+SUBSEQUENT_STATE_COUNT dup2 State1
+MESSAGE_COUNT Lifeline3
+INCOMING_MSG_COUNT Role2 State3
+TRANSITION_COUNT Lifeline1
+SUBSEQUENT_STATE_COUNT Lifeline2 Message1
+TRANSITION_COUNT NoState
+STATE_COUNT Message2
+PTCP_OBJ_COUNT dup_inter
+TRANSITION_COUNT Message1
+STATE_COUNT Lifeline2
+MESSAGE_COUNT Role3
+SUBSEQUENT_STATE_COUNT State7 State1
+TRANSITION_COUNT Lifeline1
+STATE_COUNT State4
+SUBSEQUENT_STATE_COUNT Role6 OneState
+PTCP_OBJ_COUNT dup_name
+STATE_COUNT OneState
+SUBSEQUENT_STATE_COUNT Self Role4
+TRANSITION_COUNT Role4
+STATE_COUNT Lifeline1
+TRANSITION_COUNT Role6
+INCOMING_MSG_COUNT init Lifeline2
+SUBSEQUENT_STATE_COUNT State8 Lifeline1
+STATE_COUNT Message1
+PTCP_OBJ_COUNT oneLine
+STATE_COUNT Self
+STATE_COUNT dup
+TRANSITION_COUNT State3
+INCOMING_MSG_COUNT dup_name Message3
+TRANSITION_COUNT dup2
+INCOMING_MSG_COUNT Interaction1 Role1
+SUBSEQUENT_STATE_COUNT nutter State1
+PTCP_OBJ_COUNT State1
+SUBSEQUENT_STATE_COUNT Message1 State3
+TRANSITION_COUNT dup
+TRANSITION_COUNT dup
+TRANSITION_COUNT dup_name
+STATE_COUNT dup2
+PTCP_OBJ_COUNT NoState
+PTCP_OBJ_COUNT nutter
+STATE_COUNT dup_inter
+SUBSEQUENT_STATE_COUNT dup_name Lifeline1
+SUBSEQUENT_STATE_COUNT Lifeline2 State5
+STATE_COUNT Lifeline1
+SUBSEQUENT_STATE_COUNT State6 init
+TRANSITION_COUNT Lifeline1
+STATE_COUNT normal
+SUBSEQUENT_STATE_COUNT init State2
+INCOMING_MSG_COUNT Lifeline3 nutter
+SUBSEQUENT_STATE_COUNT State8 Lifeline3
+STATE_COUNT normal
+PTCP_OBJ_COUNT init
+STATE_COUNT State3
+SUBSEQUENT_STATE_COUNT Interaction1 Self
+SUBSEQUENT_STATE_COUNT Lifeline1 dup
+TRANSITION_COUNT dup_inter
+STATE_COUNT Message3
+INCOMING_MSG_COUNT dup oneLine
+TRANSITION_COUNT State8
+TRANSITION_COUNT dup
+TRANSITION_COUNT Message3
+PTCP_OBJ_COUNT Lifeline1
+MESSAGE_COUNT Lifeline2
+MESSAGE_COUNT dup
+INCOMING_MSG_COUNT dup2 init
+TRANSITION_COUNT State7
+SUBSEQUENT_STATE_COUNT dup_name Role1
+SUBSEQUENT_STATE_COUNT init Role1
+STATE_COUNT incoming
+INCOMING_MSG_COUNT Role7 State3
+STATE_COUNT dup
+TRANSITION_COUNT normal
+PTCP_OBJ_COUNT Role1
+STATE_COUNT State7
+PTCP_OBJ_COUNT Message1
+STATE_COUNT oneLine
+SUBSEQUENT_STATE_COUNT State1 dup_inter
+STATE_COUNT dup
+STATE_COUNT Role5
+STATE_COUNT Role5
+PTCP_OBJ_COUNT Self
+PTCP_OBJ_COUNT NoState
+PTCP_OBJ_COUNT State1
+INCOMING_MSG_COUNT State4 NoState
+PTCP_OBJ_COUNT Role3
+SUBSEQUENT_STATE_COUNT Lifeline1 Role8
+PTCP_OBJ_COUNT Lifeline3
+PTCP_OBJ_COUNT State8
+SUBSEQUENT_STATE_COUNT Role2 Message2
+INCOMING_MSG_COUNT State1 Self
+TRANSITION_COUNT Lifeline1
+STATE_COUNT State1
+TRANSITION_COUNT init
+TRANSITION_COUNT dup_name
+SUBSEQUENT_STATE_COUNT Role1 State1
+TRANSITION_COUNT oneLine
+INCOMING_MSG_COUNT dup_name init
+SUBSEQUENT_STATE_COUNT dup_name Interaction1
+TRANSITION_COUNT State1
+TRANSITION_COUNT normal
+TRANSITION_COUNT Role2
+STATE_COUNT Lifeline2
+MESSAGE_COUNT init
+SUBSEQUENT_STATE_COUNT Role1 init
+TRANSITION_COUNT init
+SUBSEQUENT_STATE_COUNT NoState Lifeline2
+TRANSITION_COUNT State7
+TRANSITION_COUNT dup
+STATE_COUNT Lifeline3
+SUBSEQUENT_STATE_COUNT dup NoState
+TRANSITION_COUNT State2
+STATE_COUNT State1
+PTCP_OBJ_COUNT Lifeline2
+TRANSITION_COUNT dup
+MESSAGE_COUNT dup
+INCOMING_MSG_COUNT State5 Lifeline2
+CLASS_OPERATION_VISIBILITY Self Lifeline2
+STATE_COUNT nutter
+TRANSITION_COUNT Normal
+PTCP_OBJ_COUNT init
+MESSAGE_COUNT oneLine
+SUBSEQUENT_STATE_COUNT Role5 State1
+SUBSEQUENT_STATE_COUNT normal Self
+STATE_COUNT State2
+STATE_COUNT Role1
+MESSAGE_COUNT Role4
+SUBSEQUENT_STATE_COUNT dup_inter Role5
+MESSAGE_COUNT dup
+SUBSEQUENT_STATE_COUNT same Role5
+TRANSITION_COUNT Message3
+SUBSEQUENT_STATE_COUNT dup2 Self
+TRANSITION_COUNT State5
+SUBSEQUENT_STATE_COUNT Role2 dup
+STATE_COUNT Lifeline3
+STATE_COUNT State4
+TRANSITION_COUNT Role6
+MESSAGE_COUNT dup
+SUBSEQUENT_STATE_COUNT Role7 OneState
+INCOMING_MSG_COUNT Lifeline1 Message1
+STATE_COUNT init
+STATE_COUNT State4
+STATE_COUNT dup_name
+TRANSITION_COUNT State2
+SUBSEQUENT_STATE_COUNT Message1 Role3
+SUBSEQUENT_STATE_COUNT Role1 Role3
+SUBSEQUENT_STATE_COUNT dup OneState
+SUBSEQUENT_STATE_COUNT State7 State3
+STATE_COUNT dup
+MESSAGE_COUNT dup_name
+SUBSEQUENT_STATE_COUNT State1 OneState
+STATE_COUNT State1
+SUBSEQUENT_STATE_COUNT Lifeline3 Lifeline1
+MESSAGE_COUNT Role5
+SUBSEQUENT_STATE_COUNT Lifeline3 Message1
+SUBSEQUENT_STATE_COUNT State1 Lifeline1
+STATE_COUNT Lifeline1
+CLASS_OPERATION_COUNT dup_inter NON_PARAM
+SUBSEQUENT_STATE_COUNT init Lifeline1
+STATE_COUNT Message1
+PTCP_OBJ_COUNT dup2
+SUBSEQUENT_STATE_COUNT State1 Lifeline1
+SUBSEQUENT_STATE_COUNT Role2 State3
+INCOMING_MSG_COUNT Lifeline2 dup
+TRANSITION_COUNT nutter
+TRANSITION_COUNT State2
+TRANSITION_COUNT State4
+TRANSITION_COUNT Lifeline2
+TRANSITION_COUNT State3
+CLASS_COUNT
+STATE_COUNT Lifeline1
+INCOMING_MSG_COUNT Role1 normal
+TRANSITION_COUNT init
+```
+
+
