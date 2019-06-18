@@ -1,0 +1,58 @@
+---
+layout:     post
+title:      "Check Finished"
+subtitle:   "Success Report"
+date:       2019-06-18 19:32:05
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+---
+
+**Time: 2019-06-18 19:32:05**
+
+> “Check Success!”
+
+
+## Details
+
+Successful participants:
+
+```
+bxy.jar
+mjl.jar
+ws.jar
+```
+
+Models are:
+
+```
+CycleCheck.mdj
+DuplAttrCheck.mdj
+DuplRlzCheck.mdj
+FakeStates.mdj
+Full.mdj
+g1_1.mdj
+g1_2.mdj
+g1_3.mdj
+g2.mdj
+g3.mdj
+g4.mdj
+Intense.mdj
+Intricate.mdj
+iPhone.mdj
+Mess.mdj
+middle_1.mdj
+middle_2.mdj
+middle_3.mdj
+middle_4.mdj
+MultiSeq.mdj
+open-close.mdj
+Simple.mdj
+Taxi.mdj
+Triple.mdj
+weak_1.mdj
+weak_2.mdj
+weak_3.mdj
+weak_4.mdj
+```
+
