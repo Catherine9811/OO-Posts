@@ -1,0 +1,65 @@
+---
+layout:     post
+title:      "Check Finished"
+subtitle:   "Failure Report"
+date:       2019-06-18 19:57:49
+author:     "BXYMartin"
+header-img: "img/post-bg-2015.jpg"
+tags:
+---
+
+**Time: 2019-06-18 19:57:49**
+
+> “Check Failure!”
+
+
+## Details
+
+Successful participants:
+
+```
+bxy.jar
+mjl.jar
+qyj.jar
+sdy.jar
+ws.jar
+```
+
+Models are:
+
+```
+allInstrTest.mdj
+CycleCheck.mdj
+DuplAttrCheck.mdj
+DuplRlzCheck.mdj
+FakeStates.mdj
+Full.mdj
+g1_1.mdj
+g1_2.mdj
+g1_3.mdj
+g2.mdj
+g3.mdj
+g4.mdj
+HW14_test.mdj
+Intense.mdj
+Intricate.mdj
+iPhone.mdj
+Mess.mdj
+middle_1.mdj
+middle_2.mdj
+middle_3.mdj
+middle_4.mdj
+MultiSeq.mdj
+open-close.mdj
+r001Test.mdj
+r002Test.mdj
+r003Test.mdj
+Simple.mdj
+Taxi.mdj
+Triple.mdj
+weak_1.mdj
+weak_2.mdj
+weak_3.mdj
+weak_4.mdj
+```
+
